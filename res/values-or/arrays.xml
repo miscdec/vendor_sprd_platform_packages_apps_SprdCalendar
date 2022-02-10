@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="reminder_methods_labels">
+<item>"ନୋଟିଫିକେସନ୍"</item>
+<item>"ଇମେଲ"</item>
+<item>"ଏସେମେସ"</item>
+<item>"ଆଲର୍ମ"</item>
+</string-array>
+<string-array name="reminder_minutes_labels">
+<item>"0 ମିନିଟ୍‍"</item>
+<item>"1 ମିନଣ୍ଟ"</item>
+<item>"5 ମିନିଟ୍‌"</item>
+<item>"10 ମିନିଟ୍‌"</item>
+<item>"15 ମିନିଟ୍‌"</item>
+<item>"20 ମିନିଟ୍‌"</item>
+<item>"25 ମିନିଟ୍‌"</item>
+<item>"30 ମିନିଟ୍‌"</item>
+<item>"45 ମିନିଟ୍‍"</item>
+<item>"1 ଘଣ୍ଟା"</item>
+<item>"2 ଘଣ୍ଟା"</item>
+<item>"3 ଘଣ୍ଟା"</item>
+<item>"12 ଘଣ୍ଟା"</item>
+<item>"24 ଘଣ୍ଟା"</item>
+<item>"2 ଦିନ"</item>
+<item>"1 ସପ୍ତାହ"</item>
+</string-array>
+<string-array name="preferences_default_reminder_labels">
+<item>"କେହି ନାହିଁ"</item>
+<item>"0 ମିନିଟ୍‍"</item>
+<item>"1 ମିନଣ୍ଟ"</item>
+<item>"5 ମିନିଟ୍‌"</item>
+<item>"10 ମିନିଟ୍‌"</item>
+<item>"15 ମିନିଟ୍‌"</item>
+<item>"20 ମିନିଟ୍‌"</item>
+<item>"25 ମିନିଟ୍‌"</item>
+<item>"30 ମିନିଟ୍‌"</item>
+<item>"45 ମିନିଟ୍‍"</item>
+<item>"1 ଘଣ୍ଟା"</item>
+<item>"2 ଘଣ୍ଟା"</item>
+<item>"3 ଘଣ୍ଟା"</item>
+<item>"12 ଘଣ୍ଟା"</item>
+<item>"24 ଘଣ୍ଟା"</item>
+<item>"2 ଦିନ"</item>
+<item>"1 ସପ୍ତାହ"</item>
+</string-array>
+<string-array name="preferences_week_start_day_labels">
+<item>"ଘଟନାସ୍ଥଳ ଡିଫଲ୍ଟ"</item>
+<item>"ଶନିବାର"</item>
+<item>"ରବିବାର"</item>
+<item>"ସୋମବାର"</item>
+</string-array>
+<string-array name="availability">
+<item>"ବ୍ୟସ୍ତ"</item>
+<item>"ଉପଲବ୍ଧ"</item>
+<item>"ଅନିର୍ଦ୍ଧିଷ୍ଟ"</item>
+</string-array>
+<string-array name="visibility">
+<item>"ଡିଫଲ୍ଟ"</item>
+<item>"ଗୋପନୀୟ"</item>
+<item>"ଅର୍ବସାଧାରଣ"</item>
+</string-array>
+<string-array name="ordinal_labels">
+<item>"ପ୍ରଥମ"</item>
+<item>"ଦ୍ୱିତୀୟ"</item>
+<item>"ତୃତୀୟ"</item>
+<item>"ଚତୁର୍ଥ"</item>
+<item>"ଶେଷ"</item>
+</string-array>
+<string-array name="response_labels1">
+<item>"କୌଣସି ପ୍ରତିକ୍ରିୟା ନାହିଁ"</item>
+<item>"ହଁ"</item>
+<item>"ହୋଇପାରେ"</item>
+<item>"ନାହିଁ"</item>
+</string-array>
+<string-array name="delete_repeating_labels">
+<item>"କେବଳ ଏହି ଘଟନା"</item>
+<item>"ଏହା ଏବଂ ଭବିଷ୍ୟତ ଘଟନାଗୁଡିକ"</item>
+<item>"ସମସ୍ତ ଘଟନା"</item>
+</string-array>
+<string-array name="delete_repeating_labels_no_selected">
+<item>"ଏହା ଏବଂ ଭବିଷ୍ୟତ ଘଟନାଗୁଡିକ"</item>
+<item>"ସମସ୍ତ ଘଟନା"</item>
+</string-array>
+<string-array name="change_response_labels">
+<item>"କେବଳ ଏହି ଘଟନା"</item>
+<item>"ପର୍ଯ୍ୟାୟରେ ଥିବା ସମସ୍ତ ଘଟନା"</item>
+</string-array>
+<string-array name="buttons_list">
+<item>"ଦିନ"</item>
+<item>"ସପ୍ତାହ"</item>
+<item>"ମାସ"</item>
+<item>"କାର୍ଯ୍ୟସୂଚୀ"</item>
+</string-array>
+<string-array name="preferences_skip_reminders_labels">
+<item>"ଯଦି କେବଳ ନାସ୍ତି କରାଗଲେ"</item>
+<item>"ଯଦି ନାସ୍ତି କରାଗଲେ କିମ୍ବା ଉତ୍ତର ନ ମିଳିଲେ"</item>
+</string-array>
+<string-array name="recurrence_freq">
+<item>"ଦୈନିକ ପୁନରାବୃତ୍ତି କରନ୍ତୁ"</item>
+<item>"ସାପ୍ତାହିକ ପୁନରାବୃତ୍ତି କରନ୍ତୁ"</item>
+<item>"ମାସିକ ପୁନରାବୃତ୍ତି କରନ୍ତୁ"</item>
+<item>"ବାର୍ଷିକ ପୁନରାବୃତ୍ତି କରନ୍ତୁ"</item>
+</string-array>
+<string-array name="repeat_by_nth_sun">
+<item>"ପ୍ରତ୍ୟେକ ପ୍ରଥମ ରବିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଦ୍ୱିତୀୟ ରବିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ତୃତୀୟ ରବିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଚତୁର୍ଥ ରବିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଶେଷ ରବିବାରରେ"</item>
+</string-array>
+<string-array name="repeat_by_nth_mon">
+<item>"ପ୍ରତ୍ୟେକ ପ୍ରଥମ ସୋମବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଦ୍ୱିତୀୟ ସୋମବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ତୃତୀୟ ସୋମବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଚତୁର୍ଥ ସୋମବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଶେଷ ସୋମବାରରେ"</item>
+</string-array>
+<string-array name="repeat_by_nth_tues">
+<item>"ପ୍ରତ୍ୟେକ ପ୍ରଥମ ମଙ୍ଗଳବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଦ୍ୱିତୀୟ ମଙ୍ଗଳବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ତୃତୀୟ ମଙ୍ଗଳବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଚତୁର୍ଥ ମଙ୍ଗଳବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଶେଷ ମଙ୍ଗଳବାରରେ"</item>
+</string-array>
+<string-array name="repeat_by_nth_wed">
+<item>"ପ୍ରତ୍ୟେକ ପ୍ରଥମ ବୁଧବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଦ୍ୱିତୀୟ ବୁଧବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ତୃତୀୟ ବୁଧବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଚତୁର୍ଥ ବୁଧବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଶେଷ ବୁଧବାରରେ"</item>
+</string-array>
+<string-array name="repeat_by_nth_thurs">
+<item>"ପ୍ରତ୍ୟେକ ପ୍ରଥମ ଗୁରୁବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଦ୍ୱିତୀୟ ଗୁରୁବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ତୃତୀୟ ଗୁରୁବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଚତୁର୍ଥ ଗୁରୁବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଶେଷ ଗୁରୁବାରରେ"</item>
+</string-array>
+<string-array name="repeat_by_nth_fri">
+<item>"ପ୍ରତ୍ୟେକ ପ୍ରଥମ ଶୁକ୍ରବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଦ୍ୱିତୀୟ ଶୁକ୍ରବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ତୃତୀୟ ଶୁକ୍ରବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଚତୁର୍ଥ ଶୁକ୍ରବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଶେଷ ଶୁକ୍ରବାରରେ"</item>
+</string-array>
+<string-array name="repeat_by_nth_sat">
+<item>"ପ୍ରତ୍ୟେକ ପ୍ରଥମ ଶନିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଦ୍ୱିତୀୟ ଶନିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ତୃତୀୟ ଶନିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଚତୁର୍ଥ ଶନିବାରରେ"</item>
+<item>"ପ୍ରତ୍ୟେକ ଶେଷ ଶନିବାରରେ"</item>
+</string-array>
+</resources>

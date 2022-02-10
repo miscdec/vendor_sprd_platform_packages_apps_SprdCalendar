@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="reminder_methods_labels">
+<item>"Notificación"</item>
+<item>"Correo electrónico"</item>
+<item>"SMS"</item>
+<item>"Alarma"</item>
+</string-array>
+<string-array name="reminder_minutes_labels">
+<item>"0 minutos"</item>
+<item>"1 minuto"</item>
+<item>"5 minutos"</item>
+<item>"10 minutos"</item>
+<item>"15 minutos"</item>
+<item>"20 minutos"</item>
+<item>"25 minutos"</item>
+<item>"30 minutos"</item>
+<item>"45 minutos"</item>
+<item>"1 hora"</item>
+<item>"2 horas"</item>
+<item>"3 horas"</item>
+<item>"12 horas"</item>
+<item>"24 horas"</item>
+<item>"2 días"</item>
+<item>"1 semana"</item>
+</string-array>
+<string-array name="preferences_default_reminder_labels">
+<item>"Ninguno"</item>
+<item>"0 minutos"</item>
+<item>"1 minuto"</item>
+<item>"5 minutos"</item>
+<item>"10 minutos"</item>
+<item>"15 minutos"</item>
+<item>"20 minutos"</item>
+<item>"25 minutos"</item>
+<item>"30 minutos"</item>
+<item>"45 minutos"</item>
+<item>"1 hora"</item>
+<item>"2 horas"</item>
+<item>"3 horas"</item>
+<item>"12 horas"</item>
+<item>"24 horas"</item>
+<item>"2 días"</item>
+<item>"1 semana"</item>
+</string-array>
+<string-array name="preferences_week_start_day_labels">
+<item>"Configuración regional predeterminada"</item>
+<item>"Sábado"</item>
+<item>"Domingo"</item>
+<item>"Lunes"</item>
+</string-array>
+<string-array name="availability">
+<item>"No disponible"</item>
+<item>"Disponible"</item>
+<item>"Provisional"</item>
+</string-array>
+<string-array name="visibility">
+<item>"Predeterminado"</item>
+<item>"Privado"</item>
+<item>"Público"</item>
+</string-array>
+<string-array name="ordinal_labels">
+<item>"primero"</item>
+<item>"segundo"</item>
+<item>"tercero"</item>
+<item>"cuarto"</item>
+<item>"último"</item>
+</string-array>
+<string-array name="response_labels1">
+<item>"Sin respuesta"</item>
+<item>"Sí"</item>
+<item>"Tal vez"</item>
+<item>"No"</item>
+</string-array>
+<string-array name="delete_repeating_labels">
+<item>"Sólo este evento"</item>
+<item>"Éste y futuros eventos"</item>
+<item>"Todos los eventos"</item>
+</string-array>
+<string-array name="delete_repeating_labels_no_selected">
+<item>"Éste &amp; futuros eventos"</item>
+<item>"Todos los eventos"</item>
+</string-array>
+<string-array name="change_response_labels">
+<item>"Sólo este evento"</item>
+<item>"Todos los eventos en la serie"</item>
+</string-array>
+<string-array name="buttons_list">
+<item>"día"</item>
+<item>"semana"</item>
+<item>"Mes"</item>
+<item>"Agenda"</item>
+</string-array>
+<string-array name="preferences_skip_reminders_labels">
+<item>"Solo si se rechaza"</item>
+<item>"Si se rechaza o no tiene respuesta"</item>
+</string-array>
+<string-array name="recurrence_freq">
+<item>"REPETIR DIARIAMENTE"</item>
+<item>"REPETIR SEMANALMENTE"</item>
+<item>"REPETIR MENSUALMENTE"</item>
+<item>"REPETIR ANUALMENTE"</item>
+</string-array>
+<string-array name="repeat_by_nth_sun">
+<item>"cada primer Domingo"</item>
+<item>"cada segundo Domingo"</item>
+<item>"cada tercer Domingo"</item>
+<item>"cada cuarto Domingo"</item>
+<item>"cada último Domingo"</item>
+</string-array>
+<string-array name="repeat_by_nth_mon">
+<item>"cada primer Lunes"</item>
+<item>"cada segundo Luness"</item>
+<item>"cada tercer Lunes"</item>
+<item>"cada cuarto Lunes"</item>
+<item>"cada último Lunes"</item>
+</string-array>
+<string-array name="repeat_by_nth_tues">
+<item>"cada primer Martes"</item>
+<item>"cada segundo Martes"</item>
+<item>"cada tercer Martes"</item>
+<item>"cada cuarto Martes"</item>
+<item>"cada último Martes"</item>
+</string-array>
+<string-array name="repeat_by_nth_wed">
+<item>"cada primer Miércoles"</item>
+<item>"cada segundo Miércoles"</item>
+<item>"cada tercer Miércoles"</item>
+<item>"cada cuarto Miércoles"</item>
+<item>"cada último Miércoles"</item>
+</string-array>
+<string-array name="repeat_by_nth_thurs">
+<item>"cada primer Jueves"</item>
+<item>"cada segundo Jueves"</item>
+<item>"cada tercer Jueves"</item>
+<item>"cada cuarto Jueves"</item>
+<item>"cada último Jueves"</item>
+</string-array>
+<string-array name="repeat_by_nth_fri">
+<item>"cada primer Viernes"</item>
+<item>"cada segundo Viernes"</item>
+<item>"cada tercer Viernes"</item>
+<item>"cada cuarto Viernes"</item>
+<item>"cada último Viernes"</item>
+</string-array>
+<string-array name="repeat_by_nth_sat">
+<item>"cada primer Sábado"</item>
+<item>"cada segundo Sábado"</item>
+<item>"cada tercer Sábado"</item>
+<item>"cada cuarto Sábado"</item>
+<item>"cada último Sábado"</item>
+</string-array>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- UNISOC: Modify for bug1232836 @{ -->
+    <style name="PopupSpinnerStyle" parent="@android:style/Theme.Material">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:popupBackground">@color/reminder_minutes_bg</item>
+        <item name="android:textColor">@color/normal_text_color</item>
+    </style>
+
+    <style name="CalendarTheme.WithActionBar" parent="@android:style/Theme.Material">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:listDivider">@drawable/divider</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:actionBarStyle">@style/CalendarActionBarStyle</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowStyle</item>
+        <item name="android:datePickerDialogTheme">@style/JingDatePickerDialogTheme</item>
+        <item name="android:timePickerDialogTheme">@style/JingTimePickerDialogTheme</item>
+        <!--        checkbox，edittext光标颜色-->
+        <item name="android:colorAccent">@color/new_event_hint_text_color</item>
+    </style>
+
+    <style name="CalendarTheme.WithActionBarColor" parent="android:Theme.Material">
+        <!--        statusbar反色，暗色模式白字，浅色模式黑字-->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:actionBarStyle">@style/CalendarOtherActionBarStyle</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowStyle</item>
+        <item name="android:listDivider">@drawable/divider</item>
+        <item name="android:selectableItemBackground">@color/time_zone_picker_bg</item>
+        <item name="android:colorControlActivated">@color/select_circle_color</item>
+        <!--        actionbar 返回键图标-->
+        <item name="android:homeAsUpIndicator">@drawable/ic_launch_date_picker</item>
+        <!--        标题颜色-->
+        <item name="android:colorAccent">@color/select_circle_color</item>
+    </style>
+
+    <style name="CalendarTheme.WithEditEventActionBar" parent="android:Theme.Material">
+        <!--        statusbar反色，暗色模式白字，浅色模式黑字-->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:actionBarStyle">@style/CalendarOtherActionBarStyle</item>
+        <item name="android:endYear">2037</item>
+        <item name="android:startYear">1970</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowStyle</item>
+        <item name="android:listDivider">@drawable/divider</item>
+        <item name="android:selectableItemBackground">@color/time_zone_picker_bg</item>
+        <item name="android:colorControlActivated">#E64444</item>
+        <item name="android:timePickerDialogTheme">@style/JingTimePickerDialogTheme</item>
+        <item name="android:datePickerDialogTheme">@style/JingDatePickerDialogTheme</item>
+    </style>
+
+    <style name="CalendarTheme.WithSearchActionBar" parent="@android:style/Theme.Material">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:listDivider">@drawable/divider</item>
+        <item name="android:textColor">@color/normal_text_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:colorPrimaryDark">@color/primary_color_dark</item>
+        <item name="android:actionBarStyle">@style/CalendarActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowStyle</item>
+    </style>
+    <!-- @} -->
+    <style name="OverflowStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/note_menu_holo_light</item>
+    </style>
+    <style name="ActBar_titleStyle">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="JingDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <!--        确认取消按钮颜色，选中日期时圆形的颜色-->
+        <item name="android:colorAccent">#e44444</item>
+        <!--        年限字体颜色-->
+        <item name="android:textColorSecondaryInverse">#C7C7C7</item>
+        <!--        被选中的日历item中文字的颜色-->
+        <item name="android:textColorPrimaryInverse">#424242</item>
+        <item name="android:datePickerStyle">@style/JingDatePickerStyle</item>
+        <!--        设置日期选择器title文字颜色-->
+        <item name="android:headerMonthTextAppearance">@style/JingDatePickerTitleDateText</item>
+        <!--        dialog背景颜色-->
+        <item name="android:windowBackground">#424242</item>
+        <!--        datepicker 文字颜色-->
+        <item name="android:textColorPrimary">#ffffff</item>
+        <!--        日历中星期的颜色-->
+        <item name="android:textColorSecondary">#C7C7C7</item>
+    </style>
+
+    <style name="JingDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+        <!--        日期选择器title的背景颜色-->
+        <item name="android:headerBackground">#424242</item>
+    </style>
+
+    <style name="JingDatePickerTitleDateText" parent="android:TextAppearance.Material">
+<!--        日历title中日期字体颜色（几月几日的字体颜色）-->
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="JingTimePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <!--        确认取消按钮颜色，选中日期时圆形的颜色-->
+        <item name="android:colorAccent">#e44444</item>
+        <!--        年限字体颜色-->
+        <item name="android:textColorSecondaryInverse">#C7C7C7</item>
+        <item name="android:textColorPrimaryInverse">#424242</item>
+        <item name="android:timePickerStyle">@style/JingTimePickerStyle</item>
+        <!--        设置日期选择器title文字颜色-->
+        <item name="android:headerTimeTextAppearance">@style/JingTimePickerTitleTimeText</item>
+        <!--        dialog背景颜色-->
+        <item name="android:windowBackground">#424242</item>
+    </style>
+    <style name="JingTimePickerTitleTimeText" parent="android:TextAppearance.Material">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="JingTimePickerStyle" parent="@android:style/Widget.Material.Light.TimePicker">
+        <!--        时间选择器title的背景颜色-->
+        <item name="android:headerBackground">#424242</item>
+    </style>
+
+    <style name="EventInfoEditButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:src">@drawable/ic_menu_compose_holo_dark</item>
+    </style>
+
+    <style name="EventInfoDeleteButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:src">@drawable/ic_menu_trash_holo_dark</item>
+    </style>
+
+</resources>

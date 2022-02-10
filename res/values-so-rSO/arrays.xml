@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="reminder_methods_labels">
+<item>"Waqgalinada"</item>
+<item>"Iimayl"</item>
+<item>"SMS"</item>
+<item>"Alaarmiga"</item>
+</string-array>
+<string-array name="reminder_minutes_labels">
+<item>"0 daqiiqo"</item>
+<item>"1 daqiiqo"</item>
+<item>"5 daqiiqo"</item>
+<item>"10 daqiiqo"</item>
+<item>"15 daqiiqo"</item>
+<item>"20 daqiiqo"</item>
+<item>"25 daqiiqo"</item>
+<item>"30 daqiiqo"</item>
+<item>"45 daqiiqo"</item>
+<item>"1 saac"</item>
+<item>"2 saac"</item>
+<item>"3 saac"</item>
+<item>"12 saac"</item>
+<item>"24 saac"</item>
+<item>"2 maalmood"</item>
+<item>"1 todobaad"</item>
+</string-array>
+<string-array name="preferences_default_reminder_labels">
+<item>"Midna"</item>
+<item>"0 daqiiqo"</item>
+<item>"1 daqiiqo"</item>
+<item>"5 daqiiqo"</item>
+<item>"10 daqiiqo"</item>
+<item>"15 daqiiqo"</item>
+<item>"20 daqiiqo"</item>
+<item>"25 daqiiqo"</item>
+<item>"30 daqiiqo"</item>
+<item>"45 daqiiqo"</item>
+<item>"1 saac"</item>
+<item>"2 saac"</item>
+<item>"3 saac"</item>
+<item>"12 saac"</item>
+<item>"24 saac"</item>
+<item>"2 maalmood"</item>
+<item>"1 todobaad"</item>
+</string-array>
+<string-array name="preferences_week_start_day_labels">
+<item>"Rasmiga maxaliga ah"</item>
+<item>"Sabti"</item>
+<item>"Axad"</item>
+<item>"Isniin"</item>
+</string-array>
+<string-array name="availability">
+<item>"Mashquul ah"</item>
+<item>"La heli karo"</item>
+<item>"Aan go\'nayn"</item>
+</string-array>
+<string-array name="visibility">
+<item>"Cilado"</item>
+<item>"Qaas ah"</item>
+<item>"Guud"</item>
+</string-array>
+<string-array name="ordinal_labels">
+<item>"Koobaad"</item>
+<item>"Labaad"</item>
+<item>"Sadexaad"</item>
+<item>"Afraad"</item>
+<item>"Ugu danbaysa"</item>
+</string-array>
+<string-array name="response_labels1">
+<item>"Jawaab maleh"</item>
+<item>"Haa"</item>
+<item>"Waa suuragal"</item>
+<item>"Maya"</item>
+</string-array>
+<string-array name="delete_repeating_labels">
+<item>"Kaliya dhacdadaan"</item>
+<item>"Tani iyo dhacdooyinka mustaqbalka"</item>
+<item>"Dhamaan dhacdooyinka"</item>
+</string-array>
+<string-array name="delete_repeating_labels_no_selected">
+<item>"Tani &amp; dhacdooyinka mustaqbalka"</item>
+<item>"Dhamaan dhacdooyinka"</item>
+</string-array>
+<string-array name="change_response_labels">
+<item>"Kaliya dhacdadaan"</item>
+<item>"Dhamaan dhacdooyinka iskuxiriirsan"</item>
+</string-array>
+<string-array name="buttons_list">
+<item>"maalin"</item>
+<item>"Todobaad"</item>
+<item>"Bil"</item>
+<item>"Ujeedka"</item>
+</string-array>
+<string-array name="preferences_skip_reminders_labels">
+<item>"Kaliya hadii ladiido"</item>
+<item>"Hadii ladiido ama aanba laga jawaabin"</item>
+</string-array>
+<string-array name="recurrence_freq">
+<item>"MAALINKASTA KUCELI"</item>
+<item>"TODOBAAD KASTA KUCELI"</item>
+<item>"BIL KASTA KUCELI"</item>
+<item>"SANADKASTA KUCELI"</item>
+</string-array>
+<string-array name="repeat_by_nth_sun">
+<item>"Axad kasta ee ugu horaysa"</item>
+<item>"Axad kasta ee kuxigta"</item>
+<item>"Axad kasta ee sadexaad"</item>
+<item>"Axad kasta ee afraad"</item>
+<item>"Axad kasta ee ugu danbaysay"</item>
+</string-array>
+<string-array name="repeat_by_nth_mon">
+<item>"Isniinkasta ee ugu horaysa"</item>
+<item>"Isniinkasta ee kuxigta"</item>
+<item>"Isniinkasta ee sadexaad"</item>
+<item>"Isniinkasta ee afraad"</item>
+<item>"Isniinkasta ee ugu danbaysa"</item>
+</string-array>
+<string-array name="repeat_by_nth_tues">
+<item>"Talaadada kasta ee ugu horaysa"</item>
+<item>"Talaadada kasta ee kuxigta"</item>
+<item>"Talaadada kasta ee sadexaad"</item>
+<item>"Talaadada kasta ee afraad"</item>
+<item>"Talaadada kasta ee ugu danbaysa"</item>
+</string-array>
+<string-array name="repeat_by_nth_wed">
+<item>"Arbaco kasta oo ugu horaysa"</item>
+<item>"Arbaco kasta oo kuxigta"</item>
+<item>"Arbaco kasta ee sadexaad"</item>
+<item>"Arbaco kasta ee afraad"</item>
+<item>"Arbaco kasta ee ugu danbaysa"</item>
+</string-array>
+<string-array name="repeat_by_nth_thurs">
+<item>"Khamiis kasta oo ugu horaysa"</item>
+<item>"Khamiis kasta oo kuxigta"</item>
+<item>"Khamiis kasta oo sadexaad"</item>
+<item>"Khamiis kasta oo afraad"</item>
+<item>"Khamiis kasta oo ugu danbaysa"</item>
+</string-array>
+<string-array name="repeat_by_nth_fri">
+<item>"Jamco kasta oo ugu horeeysa"</item>
+<item>"Jamco kasta oo kuixiga"</item>
+<item>"Jamco kasta oo sadexaad"</item>
+<item>"Jamco kasta oo afraad"</item>
+<item>"Jamco kasta oo ugu danbeeya"</item>
+</string-array>
+<string-array name="repeat_by_nth_sat">
+<item>"Sabti kasta oo ugu horaysa"</item>
+<item>"Sabti kasta oo kuxigta"</item>
+<item>"Sabti kasta oo sadexaad"</item>
+<item>"Sabti kasta oo afraad"</item>
+<item>"Sabti kasta oo ugu danbaysa"</item>
+</string-array>
+</resources>

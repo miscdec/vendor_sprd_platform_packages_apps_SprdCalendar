@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_alignWithParentIfMissing="true"
+              android:orientation="vertical">
+
+    <com.sprd.calendar.newmonth.WeekBarView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/week_bar_height"
+        android:background="@color/week_bar_view"
+        app:week_text_color="@color/gray_text_color"
+        app:week_text_size="9"/>
+
+    <com.sprd.calendar.newmonth.schedule.ScheduleLayout
+        android:id="@+id/slSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:auto_change_month_row="true"
+        app:default_view="month">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/rlMonthCalendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.sprd.calendar.newmonth.month.MonthCalendarView
+                        android:id="@+id/mcvCalendar"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/month_calendar_height"
+                        android:background="@color/calendar_bg_color"
+                        android:overScrollMode="never"
+                        app:month_day_text_size="@integer/calendar_text_size"
+                        app:month_holiday_color="@color/holiday_text_color"
+                        app:month_selected_circle_color="@color/select_circle_color"
+                        app:month_selected_circle_today_color="@color/select_circle_color"
+                        app:month_show_holiday_hint="false"
+                        app:month_show_lunar="true"
+                        app:month_show_task_hint="true"/>
+                </RelativeLayout>
+
+                <com.sprd.calendar.newmonth.week.WeekCalendarView
+                    android:id="@+id/wcvCalendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/week_calendar_height"
+                    android:background="@color/calendar_bg_color"
+                    android:overScrollMode="never"
+                    android:visibility="gone"
+                    app:week_day_text_size="@integer/calendar_text_size"
+                    app:week_holiday_color="@color/holiday_text_color"
+                    app:week_selected_circle_today_color="@color/select_circle_color"
+                    app:week_selected_circle_color="@color/select_circle_color"
+                    app:week_today_text_color = "@color/select_circle_color"
+                    app:week_show_holiday_hint="false"
+                    app:week_show_lunar="true"
+                    app:week_show_task_hint="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlScheduleList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackground">
+                <TextView
+                    android:id="@+id/daterang"
+                    android:layout_width="match_parent"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical|start"
+                    android:textAlignment="viewStart"
+                    android:paddingLeft="16dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_height="32dp"
+                    android:background="@color/colorBackground"
+                    android:textColor="@color/gray_text_color"
+                    />
+
+                <com.sprd.calendar.newmonth.schedule.ScheduleRecyclerView
+                    android:id="@+id/rvScheduleList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/daterang"
+                    android:layout_alignParentStart="true"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    android:background="@color/calendar_bg_color"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/rlNoTask"
+                    android:background="@color/calendar_bg_color"
+                    android:layout_marginTop="32dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="64dp"
+                        android:text="@string/notask"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </com.sprd.calendar.newmonth.schedule.ScheduleLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path path="Android/data/com.android.calendar/" name="files_root" />
+    <external-path path="." name="external_storage_root" />
+    <!-- UNISOC: Modify for Bug1377910 @{ -->
+    <cache-path name="application_cache" />
+    <!-- @} -->
+</paths>
+
+

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Dhaha guyyaa/Kalaandara"</string>
+<string name="what_label">"Maal"</string>
+<string name="where_label">"Eessa"</string>
+<string name="when_label">"Yoom"</string>
+<string name="timezone_label">"Zoonii yeroo"</string>
+<string name="attendees_label">"Keessummoota"</string>
+<string name="today">"Har’a"</string>
+<string name="tomorrow">"Boru"</string>
+<string name="today_at_time_fmt">"Har’a sa’atii <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="tomorrow_at_time_fmt">"Boru sa’atii <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="repeats_label">"Irra deddeebii"</string>
+<string name="no_title_label">"Mata duree hin qabu"</string>
+<plurals name="Nminutes">
+<item quantity="one">"Daaqiiqaa 1"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> daqiiqaawwan"</item>
+</plurals>
+<plurals name="Nmins">
+<item quantity="one">"Daqiiqaa 1"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> Daaqwwan"</item>
+</plurals>
+<plurals name="Nhours">
+<item quantity="one">"Sa’aattii 1"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> Sa’aatiiwwan"</item>
+</plurals>
+<plurals name="Ndays">
+<item quantity="one">"Guyyaa 1"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> Guyyoota"</item>
+</plurals>
+<plurals name="weekN">
+<item quantity="other">"Torban <xliff:g id="count">%d</xliff:g>"</item>
+</plurals>
+<string name="calendar_refresh">"Haareffachuu"</string>
+<string name="select_date">"Guyyaa filadhu"</string>
+<string name="show_day_view">"Guyyaa argisiisi"</string>
+<string name="agenda_view">"Ajandaa"</string>
+<string name="day_view">"Guyyaa"</string>
+<string name="week_view">"Torban"</string>
+<string name="month_view">"Ji’a"</string>
+<string name="event_view">"Ta’ii ilaali"</string>
+<string name="event_create">"Tahiin hin jiru"</string>
+<string name="event_edit">"Tahii soroorsi"</string>
+<string name="event_delete">"Tahii haqi"</string>
+<string name="goto_today">"Har’a"</string>
+<string name="menu_preferences">"Seetiinhiiwwan"</string>
+<string name="menu_select_visible_calendars">"Kalandarii argisiisuuf"</string>
+<string name="search">"Barbaadi"</string>
+<string name="hide_controls">"To’attoota dhoksi"</string>
+<string name="show_controls">"To’attoota argisiisi"</string>
+<string name="select_visible_calendars_title">"Kalandarii argisiisuuf"</string>
+<string name="synced">"Haaromsame"</string>
+<string name="not_synced">"Kan hin synced"</string>
+<string name="acct_not_synced">"Herreegni kun kan hi\n syncseeffamne dha gara dhaha guyyoota keeti tarii hin haaroomne ta’a."</string>
+<string name="accounts">"Herreega &amp; sync"</string>
+<string name="select_synced_calendars_title">"Dhaha guyyootaa gara sync"</string>
+<string name="select_synced_calendars_button">"Dhaha guyyootaa gara sync"</string>
+<string name="hint_what">"maqaa raga"</string>
+<string name="hint_where">"Kallaatii"</string>
+<string name="hint_description">"Ibsaa"</string>
+<string name="hint_attendees">"Keessummoota"</string>
+<string name="creating_event">"Ragaa umaame."</string>
+<string name="saving_event">"Raga olkaahame."</string>
+<string name="empty_event">"Ragaa duwwaa hin umaamne."</string>
+<string name="creating_event_with_guest">"Afeerawwaan kan ergaame."</string>
+<string name="saving_event_with_guest">"Haarroosuu kan ergaame."</string>
+<string name="rsvp_accepted">"Deebiifame eeyyee."</string>
+<string name="rsvp_tentative">"Deebiifame tarii."</string>
+<string name="rsvp_declined">"Deebiifame lakki."</string>
+<string name="create_event_dialog_save">"Olkaa’I"</string>
+<string name="alert_title">"Beeksiisoota dhaha guyyaa."</string>
+<string name="event_info_title">"Ta’ii ilaali"</string>
+<string name="event_info_detail_title">"Ibsawwan ilaali"</string>
+<string name="event_info_title_invite">"Affeera Walgahii"</string>
+<string name="edit_event_to_label">"Tiif"</string>
+<string name="edit_event_from_label">"Irraa"</string>
+<string name="edit_event_all_day_label">"Guyyaa hunda"</string>
+<string name="edit_event_calendar_label">"Dhaha guyyaa/Kalaandara"</string>
+<string name="edit_event_show_all">"Hunda agarsiisuu"</string>
+<string name="description_label">"Ibsaa"</string>
+<string name="presence_label">"Anatti agarsisi akka"</string>
+<string name="privacy_label">"Dhuunfummaa"</string>
+<string name="reminders_label">"Lakkoofsa idaa’i"</string>
+<string name="no_syncable_calendars">"Dhahootni guyyaa hin jiraan"</string>
+<string name="no_calendars_found">"Raga dabaluu keen duraa,ati dirqaama idaa’I herrega dhaha meeshaa keeti fi dhaha guyyaa mul’iisi. Tuuqi herrega idaa’uu(yoo herreega idaatte,eegii amma syncsireessuu xumuruutti fi irra deebuun yaali.) Yookiin tuuqi haquu fi mirkanneessi yoo xiqqaate dhaha tokko dha kan mul’aattu."</string>
+<string name="create_an_account_desc">"Dhahi kan sirriitti dalagu herreega Googiliin.\n\n\u2022 Argata biroowseerii weeb kamuu irraa \n\u2022 Duubaatti deebiisi raga kee ofeeganoon."</string>
+<string name="add_account">"Herreega idaa’i"</string>
+<string name="view_event_calendar_label">"Dhaha guyyaa:"</string>
+<string name="view_event_organizer_label">"Qindeessaa:"</string>
+<string name="choose_event_color_label">"Raga halluu filuu"</string>
+<string name="event_color_picker_dialog_title">"Ragaa"</string>
+<string name="event_color_set_to_default">"Ragaa halluu"</string>
+<string name="calendar_color_picker_dialog_title">"Dhaha halluu"</string>
+<string name="calendar_square_color_picker_description">"Halluu fudhataa"</string>
+<string name="view_event_response_label">"Hirmaachuu ?"</string>
+<string name="response_yes">"Eeyyee"</string>
+<string name="response_maybe">"Tarii"</string>
+<string name="response_no">"Lakki"</string>
+<string name="email_guests_label">"Keessumoota imeelii"</string>
+<string name="email_organizer_label">"Qindeessaa imeelii"</string>
+<string name="email_picker_label">"Imeelii waliin"</string>
+<string name="event_not_found">"Ragaan hin argamne."</string>
+<string name="map_label">"Kaartaa"</string>
+<string name="call_label">"Waamiicha"</string>
+<string name="quick_response_settings">"Deebiiwwan hatattamaa"</string>
+<string name="quick_response_settings_summary">"Guulaali deebiiwwaan dhaabuu yeroo keessumootaaf imeeltu"</string>
+<string name="quick_response_settings_title">"Guulaali deebiiwwan hatattamaa"</string>
+<string name="quick_response_settings_edit_title">"Deebiiwwaan saffiisaa"</string>
+<string name="quick_response_dialog_title">"Deebii saffiisaa filadhu"</string>
+<string name="quick_response_email_failed">"Sagantaa imeelii barbaadu dadhabeera."</string>
+<string-array name="quick_response_defaults">
+<item>"Hojjeechaa hanga daqiiqaawwan yartuu ture."</item>
+<item>"Achi ta’i waa’ee daaqiiqaawwaan 10 keessa"</item>
+<item>"Itti fufuu fi jalqabuu ana malee."</item>
+<item>"Dhiifama,ani dalagu hi\n danda’u isa. Nutti deebiifnne saganteessuu qabna."</item>
+</string-array>
+<string name="quick_response_custom_msg">"Kan kee barreessi.\u2026"</string>
+<string name="event_info_organizer">"Qindeessaa:"</string>
+<string name="event_info_reminders_label">"Yaadachiistoota"</string>
+<string name="agenda_today">"HAR’A, <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="agenda_yesterday">"KAALEESSA <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="agenda_tomorrow">"BORU, <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="loading">"Fee’uu\u2026"</string>
+<string name="show_older_events">"Tuuqi dura ragaawwaan ilaaluuf <xliff:g id="oldest_search_range">%1$s</xliff:g>"</string>
+<string name="show_newer_events">"Tuuqi booda ragaawwaan ilaaluuf <xliff:g id="newest_search_range">%1$s</xliff:g>"</string>
+<string name="search_title">"Barbaadi dhaha guyyoota koo"</string>
+<string name="edit_event_label">"Gadi fageenyawwan"</string>
+<string name="edit_label">"Soroorsuu"</string>
+<string name="delete_label">"balleessuu"</string>
+<string name="save_label">"Olkaa’I"</string>
+<string name="discard_label">"Balleessi"</string>
+<string name="snooze_all_label">"Hunda raffiisi"</string>
+<string name="dismiss_all_label">"Hunda balleessi"</string>
+<string name="snooze_label">"Raffiisi"</string>
+<string name="does_not_repeat">"Raga yeroo-tokko"</string>
+<string name="endByDate">";hanga <xliff:g id="date">%s</xliff:g>"</string>
+<plurals name="endByCount">
+<item quantity="one">";sa’aatii tokkoof"</item>
+<item quantity="other">";daaqiiqaa<xliff:g id="number">%d</xliff:g> tokkoof"</item>
+</plurals>
+<plurals name="daily">
+<item quantity="one">"Guyyaa guyyaan"</item>
+<item quantity="other">"Guyyoota <xliff:g id="number">%d</xliff:g> mara"</item>
+</plurals>
+<string name="every_weekday">"Guyyaa torbee mara (Wix\u2013Fri)"</string>
+<plurals name="weekly">
+<item quantity="one">"Torbeen irraa <xliff:g id="days_of_week">%2$s</xliff:g>"</item>
+<item quantity="other">"Torbeewwaan mara <xliff:g id="number">%1$d</xliff:g> <xliff:g id="days_of_week">%2$s</xliff:g>"</item>
+</plurals>
+<string name="monthly">"Ji’aan"</string>
+<string name="yearly_plain">"Waggaan"</string>
+<string name="monthly_on_day">"Ji’aan irraa <xliff:g id="day_of_month">%s</xliff:g>"</string>
+<string name="yearly">"W<xliff:g id="dates">%s</xliff:g> aggaan irraa"</string>
+<string name="custom" product="tablet">"Maamiilli (hi\n maamiiloomu taabileetii irraatti)"</string>
+<string name="custom" product="default">"Maamiilli (hi\n maamiiloomu bilbiila irraatti)"</string>
+<string name="modify_event">"Ragaa kana qofaa jijjiirri"</string>
+<string name="modify_all">"Ragaawwaan hunda wal faana jijjiirri"</string>
+<string name="modify_all_following">"Ragaawwaan kanaa fi ragaawwaan fulduraa hunda"</string>
+<string name="new_event_dialog_label">"Tahiin hin jiru"</string>
+<string name="new_event_dialog_option">"Tahiin hin jiru"</string>
+<string name="delete_this_event_title">"Raga kana haquu?"</string>
+<string name="delete_recurring_event_title">"Haquu<xliff:g id="eventtitle">%s</xliff:g>?"</string>
+<string name="change_response_title">"Deebii jijjiirri"</string>
+<string name="menu_general_preferences">"Yoomeessawwaan waliigalaa"</string>
+<string name="menu_about_preferences">"Waa’ee dhaha koo"</string>
+<string name="preferences_title">"Seetiinhiiwwan"</string>
+<string name="preferences_general_title">"Yoomeessa dhaha guyyaa ilaaluu"</string>
+<string name="preferences_reminder_title">"Beeksiisoota \u0026 yaadachiistoota"</string>
+<string name="preferences_hide_declined_title">"Ragaawwaan gadi bu’ee dhoksuu"</string>
+<string name="preferences_week_start_day_title">"Jalqabuu gadi aanaa banaa"</string>
+<string name="preferences_week_start_day_dialog">"Jalqabuu gadi aanaa banaa"</string>
+<string name="preferences_clear_search_history_title">"Seenaa barbaaduu haquu"</string>
+<string name="preferences_clear_search_history_summary">"Haqi barbaaduu hunda kan at\i dalagde"</string>
+<string name="search_history_cleared">"Seenaa barbaaduu haqaameera."</string>
+<string name="preferences_alerts_title">"Beeksiisoota"</string>
+<string name="preferences_alerts_vibrateWhen_title">"Hollata"</string>
+<string name="preferences_alerts_ringtone_title">"Sagalee"</string>
+<string name="preferences_alerts_popup_title">"Beeksiisa saffiisaa"</string>
+<string name="preferences_default_reminder_title">"Yaadachiiftuu yeroo balleessuu"</string>
+<string name="preferences_default_reminder_dialog">"Yaadachiiftuu yeroo balleessuu"</string>
+<string name="preferences_use_home_tz_title">"Yeroo naannoo manaa fayyadami"</string>
+<string name="preferences_use_home_tz_descrip">"Dhaha guyyootaa fi yeroowwaan raga sa’aatti naannoo mana kee keessa yeroo adeemuu"</string>
+<string name="preferences_home_tz_title">"Sa’aatti naannoo manaa"</string>
+<string name="preferences_show_week_num_title">"Lakkoofsa torbee agarsiisi"</string>
+<string name="preferences_about_title">"Waa’ee"</string>
+<string name="preferences_build_version">"Gosa ijaaruu"</string>
+<string name="gadget_title">"Dhaha guyyaa/Kalaandara"</string>
+<string name="gadget_no_events">"Ragaawwaan dha guyyootaa oldhufaan hin jiraan"</string>
+<string name="preferences_experimental_category">"Yaaliin"</string>
+<string name="preferences_reminders_category">"Yaadachiistoota"</string>
+<string name="preferences_reminders_responded_label">"Yaadachiiftoota olkaa’i"</string>
+<string name="preferences_reminders_responded_dialog">"Yaadachiiftoota olkaa’i"</string>
+<string name="preferences_reminders_quiet_hours_label">"Sa’aattiiwwaan ada kuti"</string>
+<string name="preferences_reminders_quiet_hours_description">"Raga yaadachiiftoota calliisaa yeroo sa’aatti adda ba’ee."</string>
+<string name="preferences_reminders_quiet_hours_start">"Sa’aattiiwwaan adda kutu jalqabuu"</string>
+<string name="preferences_reminders_quiet_hours_end">"Sa’aattiiwwaan adda kutu xumuruu"</string>
+<string name="preferences_debug_category">"Sirreeffama"</string>
+<string name="copy_db">"Ergi bu’uura oddeefannoo"</string>
+<string name="directory_searching_fmt">"Barbaadaa jira <xliff:g id="domain">%s</xliff:g>\u2026"</string>
+<string name="accessibility_remove_attendee">"Hirmaataa haquu"</string>
+<string name="accessibility_pick_start_date">"Guyyaa Jalqabuu"</string>
+<string name="accessibility_pick_start_time">"Sa’aatti jalqabuu"</string>
+<string name="accessibility_pick_end_date">"Guyyaa xumura"</string>
+<string name="accessibility_pick_end_time">"sa’aatti Xumuraa"</string>
+<string name="accessibility_pick_time_zone">"Zoonii yeroo"</string>
+<string name="accessibility_pick_recurrence">"Raga irradeebii"</string>
+<string name="accessibility_add_reminder">"Lakkoofsa idaa’i"</string>
+<string name="accessibility_remove_reminder">"Yaadachiiftuu haquu"</string>
+<string name="accessibility_add_attendee">"Hirmaataa idaa’uu"</string>
+<string name="accessibility_sync_cal">"dhaha guyyaa sync"</string>
+<string name="accessibility_all_day">"Ragaa guyyaa idaa’uu"</string>
+<string name="accessibility_repeats">"Irra deddeebii"</string>
+<string name="accessibility_reminder_time">"yeroo yaadachiiftuu"</string>
+<string name="accessibility_reminder_type">"Gosa yaadachiiftuu"</string>
+<string name="accessibility_reminder_showmeas">"Anatti agarsisi akka"</string>
+<string name="accessibility_reminder_privacy">"Dhuunfummaa"</string>
+<string name="acessibility_cal_notification">"Beeksiisa dhaha guyyaa"</string>
+<string name="acessibility_snooze_notification">"Beeksiisa raffiisi"</string>
+<string name="accessibility_email_notification">"Keessumoota imeelii"</string>
+<string name="day_view_new_event_hint">"+Ragaa haaraa"</string>
+<string name="template_announce_item_index">"Ragaa <xliff:g id="item_index">%1$s</xliff:g> kan <xliff:g id="item_count">%2$s</xliff:g>."</string>
+<plurals name="Nevents">
+<item quantity="one">"taatee 1"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> Taateewwan"</item>
+</plurals>
+<plurals name="N_remaining_events">
+<item quantity="one">"taatee +1"</item>
+<item quantity="other">"+<xliff:g id="count">%d</xliff:g> taateewwan"</item>
+</plurals>
+<string name="acessibility_selected_marker_description">"taatee filadhu"</string>
+<string name="do_not_check">"NOTmirkanneessiin-&gt;"</string>
+<string name="recurrence_dialog_title">"Irradeebi"</string>
+<string name="recurrence_dialog_title_never">"Irraadeebiin gonkuma"</string>
+<plurals name="recurrence_interval_daily">
+<item quantity="one">"Guyyaa <xliff:g id="count">%d</xliff:g> mara"</item>
+<item quantity="other">"Guyyoota <xliff:g id="count">%d</xliff:g> mara"</item>
+</plurals>
+<plurals name="recurrence_interval_weekly">
+<item quantity="one">"Torbee <xliff:g id="count">%d</xliff:g> mara"</item>
+<item quantity="other">"Torbeewwaan <xliff:g id="count">%d</xliff:g> mara"</item>
+</plurals>
+<plurals name="recurrence_interval_monthly">
+<item quantity="one">"Ji’a <xliff:g id="count">%d</xliff:g> mara"</item>
+<item quantity="other">"Ji’oota <xliff:g id="count">%d</xliff:g> mara"</item>
+</plurals>
+<plurals name="recurrence_interval_yearly">
+<item quantity="one">"Waggaa <xliff:g id="count">%d</xliff:g> mara"</item>
+<item quantity="other">"Waggoota <xliff:g id="count">%d</xliff:g> mara"</item>
+</plurals>
+<string name="recurrence_month_pattern_by_day">"guyyaa walfakkaatu ji’a kamuu"</string>
+<string name="recurrence_end_continously">"Bara baraa"</string>
+<string name="recurrence_end_date_label">"Hanga guyyaatti"</string>
+<string name="recurrence_end_date">"Hanga <xliff:g id="date">%s</xliff:g>"</string>
+<string name="recurrence_end_count_label">"Lakkoofsa ragaawwaaniif"</string>
+<plurals name="recurrence_end_count">
+<item quantity="one">"Ragaa <xliff:g id="event_count">%d</xliff:g>’f"</item>
+<item quantity="other">"Ragaawwaan <xliff:g id="event_count">%d</xliff:g>’f"</item>
+</plurals>
+<string name="acessibility_recurrence_choose_end_date_description">"Guyyaa xumraa jijjiirri"</string>
+<string name="email_format_err">"Dogoggoora teessoo imeelii keessummootaa haquu"</string>
+<string name="local_account">"Herreega Naannoo"</string>
+<string name="can_not_synced">"Syncseessuu hi\n danda’u"</string>
+<string name="menu_share">"Qooduu"</string>
+<string name="send_calendar">"Hiruu karaa ragaa"</string>
+<string name="no_way_to_share_calendar">"Appilikeeshiiniin hin jiru raga guyyaa hiruuf"</string>
+<string name="ringtone_default_message">"Dhiifama, sagaleessaan bilbilaa hin hojjetu, sagaleessaa bilbilaa faayilii ofiinii filadhu"</string>
+<string name="select_date_out_range">"Guyyaan filannoo kee tilmaamaan ala, tilmaamni sirriin 1970-2037 dha."</string>
+<string name="title_too_long">"Mi’I hedduu dheeraa dha."</string>
+<string name="type_vcalendar">"Dhaha guyyaa/Kalaandara"</string>
+<string name="import_vcalendar">"Dhaha guyyaa keessaatti galchuu?"</string>
+<string name="parse_fail">"Faayiilii xinxaaluun kufeera!"</string>
+<string name="import_error">"Faayiilii keessaatti galchuun kufeera!"</string>
+<string name="import_waiting">"Keessaatti galchuu, maaloo eegi….."</string>
+<string name="import_ok">"Raga (wwaan)keessaatti galaan milkaa’aan!"</string>
+<string name="import_type_error">"Gosa herreegu gocha Keessaatti galchuukan hin ture dhaha amma keessatti"</string>
+<string name="no_exist_accounts">"Dhaha guyyaa kan hin jire. Maaloo herreega idaa’uu!"</string>
+<string name="application_stop">"Appiliikeeshiinii kan to’aachuu danda’u raawwii hin argamne"</string>
+<string name="error_permissions">"Appilikeeshiniin eeyyaamoota barbaachise gadi fageenyaan hin qabu dalaguuf: Maaloo yoomeessawwan eeyyaamoota kee mirkannessi."</string>
+<string name="dialog_dismiss">"Dhaabuu"</string>
+<string name="toast_calendar_internal_error">"Dogoggoora keessaa dhaha guyyaa uumaame!"</string>
+<string name="not_save_event">"Guyyaa dhumaa kan hin eeyyaamamne dha gocha kana olkaa’uuf"</string>
+<string name="sqlite_full">"Dhaha guyyaa bu’uura yookiin diiskii guutuu dha"</string>
+<string name="delete_all_event">"Ragawwaan hunda haquu"</string>
+<string name="delete_all_event_title">"Ati dhugaa dha ragawwaan hunda haquu?"</string>
+<string name="delete_error">"Ati raga hin qabdu."</string>
+<string name="delete_title">"balleessuu"</string>
+<string name="remind_read_userdata_title">"Oddeeffannoo fayyadamaa dubbiisi"</string>
+<string name="read_userdata_content">"Keessummootaa fi oddeeffannoo qunnamaa dubbiisuu"</string>
+<string name="hint_attendees_et">"Keessummootaa(koomaan adda bahe)"</string>
+<string name="yes">"Eeyyee"</string>
+<string name="no">"Lakki"</string>
+<string-array name="calendar_week">
+<item>"Snabata"</item>
+<item>"Wixata"</item>
+<item>"Kipxata"</item>
+<item>"Roobii"</item>
+<item>"Kamisa"</item>
+<item>"Jimaata"</item>
+<item>"Dilbata"</item>
+</string-array>
+<string name="request_permissions">"Eeyyaamoota dhaha guyyaa"</string>
+<string name="notask">"Duwwaa"</string>
+<string name="month_today">"Har’a"</string>
+<string name="month_tomorrow">"Boru"</string>
+<string name="month_yesterday">"Kaleessa"</string>
+<string name="month_after_tomorrow">"Iftaan"</string>
+<string name="month_before_yesterday">"Dheengadda"</string>
+<string name="month_before">" Guyyoota duraa"</string>
+<string name="month_after">" Guyyoota booda"</string>
+</resources>

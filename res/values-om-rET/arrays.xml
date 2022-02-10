@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string-array name="reminder_methods_labels">
+<item>"Akeekkachiiftuu"</item>
+<item>"Imeelii"</item>
+<item>"SMS"</item>
+<item>"Dammaqsituu"</item>
+</string-array>
+<string-array name="reminder_minutes_labels">
+<item>"Daqiiqota 0"</item>
+<item>"Daaqiiqaa 1"</item>
+<item>"Daqiiqota 5"</item>
+<item>"Daqiiqota 10"</item>
+<item>"Daqiiqota 15"</item>
+<item>"Daqiiqota 20"</item>
+<item>"Daqiiqota 25"</item>
+<item>"Daqiiqota 30"</item>
+<item>"Daqiiqota 45"</item>
+<item>"Sa’aattii 1"</item>
+<item>"Sa’atoota 2"</item>
+<item>"Sa’atoota 3"</item>
+<item>"Sa’atoota 12"</item>
+<item>"Sa’atoota 24"</item>
+<item>"Guyyoota 2"</item>
+<item>"Torban 1"</item>
+</string-array>
+<string-array name="preferences_default_reminder_labels">
+<item>"Homaa"</item>
+<item>"Daqiiqota 0"</item>
+<item>"Daaqiiqaa 1"</item>
+<item>"Daqiiqota 5"</item>
+<item>"Daqiiqota 10"</item>
+<item>"Daqiiqota 15"</item>
+<item>"Daqiiqota 20"</item>
+<item>"Daqiiqota 25"</item>
+<item>"Daqiiqota 30"</item>
+<item>"Daqiiqota 45"</item>
+<item>"Sa’aattii 1"</item>
+<item>"Sa’atoota 2"</item>
+<item>"Sa’atoota 3"</item>
+<item>"Sa’atoota 12"</item>
+<item>"Sa’atoota 24"</item>
+<item>"Guyyoota 2"</item>
+<item>"Torban 1"</item>
+</string-array>
+<string-array name="preferences_week_start_day_labels">
+<item>"Of sirreessaa naannoo"</item>
+<item>"Sanbata duraa"</item>
+<item>"Dilbata"</item>
+<item>"Wiixata"</item>
+</string-array>
+<string-array name="availability">
+<item>"Hojiin baay’achuu"</item>
+<item>"Jira"</item>
+<item>"Jijjiiramaa"</item>
+</string-array>
+<string-array name="visibility">
+<item>"Durtii"</item>
+<item>"Dhuunfaa"</item>
+<item>"Kan uummataa"</item>
+</string-array>
+<string-array name="ordinal_labels">
+<item>"Jalqaba"</item>
+<item>"Lammaffaa"</item>
+<item>"Sadaffaa"</item>
+<item>"Afuraffaa"</item>
+<item>"Isa Dhuma"</item>
+</string-array>
+<string-array name="response_labels1">
+<item>"Deebiin hin jiru"</item>
+<item>"Eeyyee"</item>
+<item>"Tarii"</item>
+<item>"Lakki"</item>
+</string-array>
+<string-array name="delete_repeating_labels">
+<item>"Tahii kana qofa"</item>
+<item>"Kanaaf tahii gara fuulduraa"</item>
+<item>"Tahii hundaa"</item>
+</string-array>
+<string-array name="delete_repeating_labels_no_selected">
+<item>"Kun &amp; tahii fuulduraa"</item>
+<item>"Tahii hundaa"</item>
+</string-array>
+<string-array name="change_response_labels">
+<item>"Tahii kana qofa"</item>
+<item>"Tahii hundaa tartiibaan"</item>
+</string-array>
+<string-array name="buttons_list">
+<item>"Guyyaa"</item>
+<item>"Torban"</item>
+<item>"Ji’a"</item>
+<item>"Ajandaa"</item>
+</string-array>
+<string-array name="preferences_skip_reminders_labels">
+<item>"Yoo kufe duwwaa"</item>
+<item>"Yoo kufe ykn deebisuu dide"</item>
+</string-array>
+<string-array name="recurrence_freq">
+<item>"GUYYAA GUYYAAN IRRA DEEBI’I"</item>
+<item>"TORBAN TORBANIIN IRRA DEEBI’I"</item>
+<item>"JI’A JI’AAAN IRRA DEEBI’I"</item>
+<item>"WAGAA WAGGAAN IRRA DEEBI’I"</item>
+</string-array>
+<string-array name="repeat_by_nth_sun">
+<item>"Guyyaa Dilbataa isa jalqabaarra yeroo hundaa"</item>
+<item>"Guyyaa Dilbataa isa lammaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Dilbataa isa sadaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Dilbataa isa afuraffaarra yeroo hundaa"</item>
+<item>"Guyyaa Dilbataa isa dhumaarra yeroo hundaa"</item>
+</string-array>
+<string-array name="repeat_by_nth_mon">
+<item>"Guyyaa Wiixataa isa jalqabaarra yeroo hundaa"</item>
+<item>"Guyyaa Wiixataa isa lammaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Wiixataa isa sadaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Wiixataa isa afuraffaarra yeroo hundaa"</item>
+<item>"Guyyaa Wiixataa isa dhumaarra yeroo hundaa"</item>
+</string-array>
+<string-array name="repeat_by_nth_tues">
+<item>"Guyyaa Kibxataa isa jalqabaarra yeroo hundaa"</item>
+<item>"Guyyaa Kibxataa isa lammaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Kibxataa isa sadaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Kibxataa isa afuraffaarra yeroo hundaa"</item>
+<item>"Guyyaa Kibxataa isa dhumaarra yeroo hundaa"</item>
+</string-array>
+<string-array name="repeat_by_nth_wed">
+<item>"Guyyaa Roobii isa jalqabaarra yeroo hundaa"</item>
+<item>"Guyyaa Roobii isa lammaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Roobii isa sadaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Roobii isa afuraffaarra yeroo hundaa"</item>
+<item>"Guyyaa Roobii isa dhumaarra yeroo hundaa"</item>
+</string-array>
+<string-array name="repeat_by_nth_thurs">
+<item>"Guyyaa Kamisaa isa jalqabaarra yeroo hundaa"</item>
+<item>"Guyyaa Kamisaa isa lammaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Kamisaa isa sadaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Kamisaa isa afuraffaarra yeroo hundaa"</item>
+<item>"Guyyaa Kamisaa isa dhumaarra yeroo hundaa"</item>
+</string-array>
+<string-array name="repeat_by_nth_fri">
+<item>"Guyyaa Jimaataa isa jalqabaarra yeroo hundaa"</item>
+<item>"Guyyaa Jimaataa isa lammaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Jimaataa isa sadaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Jimaataa isa afuraffaarra yeroo hundaa"</item>
+<item>"Guyyaa Jimaataa isa dhumaarra yeroo hundaa"</item>
+</string-array>
+<string-array name="repeat_by_nth_sat">
+<item>"Guyyaa Sanbataa isa jalqabaarra yeroo hundaa"</item>
+<item>"Guyyaa Sanbataa isa lammaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Sanbataa isa sadaffaarra yeroo hundaa"</item>
+<item>"Guyyaa Sanbataa isa afuraffaarra yeroo hundaa"</item>
+<item>"Guyyaa Sanbataa isa dhumaarra yeroo hundaa"</item>
+</string-array>
+</resources>

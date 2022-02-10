@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_label">"Ka-tirsiga"</string>
+<string name="what_label">"Maxay"</string>
+<string name="where_label">"Xagee"</string>
+<string name="when_label">"goorma"</string>
+<string name="timezone_label">"Aaga waqtiga"</string>
+<string name="attendees_label">"Martida"</string>
+<string name="today">"Maanta"</string>
+<string name="tomorrow">"Bari\'"</string>
+<string name="today_at_time_fmt">"Maanta ay joogto <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="tomorrow_at_time_fmt">"Bari\' ay joogto <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+<string name="repeats_label">"Ku celinta"</string>
+<string name="no_title_label">"(bilaa ciwaan)"</string>
+<plurals name="Nminutes">
+<item quantity="one">"1 daqiiqo"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> daqiiqado"</item>
+</plurals>
+<plurals name="Nmins">
+<item quantity="one">"1 daqiiqo"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> daqiiqado"</item>
+</plurals>
+<plurals name="Nhours">
+<item quantity="one">"1 saac"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> saacado"</item>
+</plurals>
+<plurals name="Ndays">
+<item quantity="one">"1 maalin"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> maalmo"</item>
+</plurals>
+<plurals name="weekN">
+<item quantity="other">"TODOBAAD <xliff:g id="count">%d</xliff:g>"</item>
+</plurals>
+<string name="calendar_refresh">"Cusboonaysiin"</string>
+<string name="select_date">"Dooro Taariikhda"</string>
+<string name="show_day_view">"Muuji maalinta"</string>
+<string name="agenda_view">"Ujeedka"</string>
+<string name="day_view">"maalin"</string>
+<string name="week_view">"Todobaad"</string>
+<string name="month_view">"Bil"</string>
+<string name="event_view">"Booqo dhacdada"</string>
+<string name="event_create">"Dhacdo cusub"</string>
+<string name="event_edit">"Waxkabadal dhacdada"</string>
+<string name="event_delete">"Tirtir dhacdada"</string>
+<string name="goto_today">"Maanta"</string>
+<string name="menu_preferences">"Qaabaynada"</string>
+<string name="menu_select_visible_calendars">"Calendar-yada si loo muujiyo"</string>
+<string name="search">"Baar"</string>
+<string name="hide_controls">"Qari xamaynada"</string>
+<string name="show_controls">"Muuji xakamaynada"</string>
+<string name="select_visible_calendars_title">"Calendar-yada si loo muujiyo"</string>
+<string name="synced">"Lala galiyay"</string>
+<string name="not_synced">"Aan lala galin"</string>
+<string name="acct_not_synced">"Koontadaan lamagalin karo marka calendar-kaaga lama cusboonaysiin karo."</string>
+<string name="accounts">"Lagalinta &amp; koontooyinka"</string>
+<string name="select_synced_calendars_title">"Calendar-yada lala galinaayo"</string>
+<string name="select_synced_calendars_button">"Calendar-yada lala galinaayo"</string>
+<string name="hint_what">"Magaca munaasabada"</string>
+<string name="hint_where">"Deegaanka"</string>
+<string name="hint_description">"qexidtaan"</string>
+<string name="hint_attendees">"Martida"</string>
+<string name="creating_event">"Munaasabad ayaa lasameeyay."</string>
+<string name="saving_event">"Munaasabad ayaa la seefgareyay."</string>
+<string name="empty_event">"Munaasabada faaruq ah ayaa la abuuray."</string>
+<string name="creating_event_with_guest">"Cauumaado ayaa ladirayaa."</string>
+<string name="saving_event_with_guest">"Wixii soo cusboonaada ayaa ladirayaa."</string>
+<string name="rsvp_accepted">"Kujawaabay haa."</string>
+<string name="rsvp_tentative">"Kujawaabay waa suuragal."</string>
+<string name="rsvp_declined">"Kujawaabay maya."</string>
+<string name="create_event_dialog_save">"Keydi"</string>
+<string name="alert_title">"Ogaysiinta Kal-tirsiga ah"</string>
+<string name="event_info_title">"Booqo dhacdada"</string>
+<string name="event_info_detail_title">"Fiiri macluumaadka"</string>
+<string name="event_info_title_invite">"Cusuumaada kulanka"</string>
+<string name="edit_event_to_label">"Ilaa"</string>
+<string name="edit_event_from_label">"Ka imaanaaya"</string>
+<string name="edit_event_all_day_label">"Daalinta oo dhan"</string>
+<string name="edit_event_calendar_label">"Ka-tirsiga"</string>
+<string name="edit_event_show_all">"Muuji dhamaan"</string>
+<string name="description_label">"qexidtaan"</string>
+<string name="presence_label">"Iitus sida"</string>
+<string name="privacy_label">"Qaas ah"</string>
+<string name="reminders_label">"Kudar xasuusiye"</string>
+<string name="no_syncable_calendars">"Majiraan kaltirsiyo"</string>
+<string name="no_calendars_found">"Kahor intaadan kudarin munaasabad, waa inaad kudartaa ugu yaraan hal koonto calendar ah aaladaada aadna kadhigto calendar-ka mid la arki karo. Taabo kudar koonto si aad koonto ugu darto (hadaad hada kudartay koonto, sug intay ay kadhamaynayso lagalinta kadibna iskuday). Ama taabo jooji xaqiijina in ugu yaraan hal calendar uu muuqdo."</string>
+<string name="create_an_account_desc">"Calendar-ka waxuu si wanaagsan ugu shaqeeyaa koonto Google-ka ah.\n\n\u2022 Kagal web-kaad doonto\n\u2022 soocesho munaasabadahaaga"</string>
+<string name="add_account">"Kudar akoonka"</string>
+<string name="view_event_calendar_label">"Calendar-ka:"</string>
+<string name="view_event_organizer_label">"Abaabulaha:"</string>
+<string name="choose_event_color_label">"Dooro midabka munaasabada"</string>
+<string name="event_color_picker_dialog_title">"Midabka munaasabada"</string>
+<string name="event_color_set_to_default">"Daji midabka munaasabada ee rasmiga ah"</string>
+<string name="calendar_color_picker_dialog_title">"Midabka"</string>
+<string name="calendar_square_color_picker_description">"Midab doorte"</string>
+<string name="view_event_response_label">"Kaqaybqaadanaaya?"</string>
+<string name="response_yes">"Haa"</string>
+<string name="response_maybe">"Waa suuragal"</string>
+<string name="response_no">"Maya"</string>
+<string name="email_guests_label">"Email uqor martida"</string>
+<string name="email_organizer_label">"Email uqor abaabulaha"</string>
+<string name="email_picker_label">"Email ulaqor"</string>
+<string name="event_not_found">"Munaasabad majirto."</string>
+<string name="map_label">"Qariirada"</string>
+<string name="call_label">"Wac"</string>
+<string name="quick_response_settings">"Jawaabo celin degdeg ah"</string>
+<string name="quick_response_settings_summary">"Wax kabadal habka jawaabo celinta markaad martida email uqoraysid"</string>
+<string name="quick_response_settings_title">"Waxabadal jawaabo celin degdeg ah"</string>
+<string name="quick_response_settings_edit_title">"Jawaab celin degdeg ah"</string>
+<string name="quick_response_dialog_title">"Dooro jawaab celin degdeg ah"</string>
+<string name="quick_response_email_failed">"Lagumaguulaysan inlahelo barnaamij email ah"</string>
+<string-array name="quick_response_defaults">
+<item>"Wadaaya dhawrkoo daqiiqo goor danbe."</item>
+<item>"Meesha imoow 10 daqiiqo gudahood."</item>
+<item>"Horay usoco la\'aantayna biloow."</item>
+<item>"Waan kaxumahay, masamaynkaro. Waa inaan dib ujadwaliyaa."</item>
+</string-array>
+<string name="quick_response_custom_msg">"Kaaga qor\u2026"</string>
+<string name="event_info_organizer">"Abaabulaha:"</string>
+<string name="event_info_reminders_label">"Xasuusiyeyaal:"</string>
+<string name="agenda_today">"MAANTA, <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="agenda_yesterday">"SHALAY, <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="agenda_tomorrow">"BARI\', <xliff:g id="date">%1$s</xliff:g>"</string>
+<string name="loading">"Raadinaya\u2026"</string>
+<string name="show_older_events">"Taabo si aad ufiiriso munaasabadihii hore <xliff:g id="oldest_search_range">%1$s</xliff:g>"</string>
+<string name="show_newer_events">"Taabo si aad ufiiriso munaasabadihii danbe <xliff:g id="newest_search_range">%1$s</xliff:g>"</string>
+<string name="search_title">"Kubaar calendar-ka"</string>
+<string name="edit_event_label">"Faahfaahino"</string>
+<string name="edit_label">"Waxkabadal"</string>
+<string name="delete_label">"tirtir"</string>
+<string name="save_label">"Keydi"</string>
+<string name="discard_label">"Jooji"</string>
+<string name="snooze_all_label">"Hurdo gaaban kuxir dhamaan"</string>
+<string name="dismiss_all_label">"Tuur dhamaan"</string>
+<string name="snooze_label">"Hurda gaaban lagu xiray"</string>
+<string name="does_not_repeat">"Munaasab halmar"</string>
+<string name="endByDate">"Ilaa <xliff:g id="date">%s</xliff:g>"</string>
+<plurals name="endByCount">
+<item quantity="one">"Hal waqti"</item>
+<item quantity="other">"; w<xliff:g id="number">%d</xliff:g>aqtiyo"</item>
+</plurals>
+<plurals name="daily">
+<item quantity="one">"maalin kasta"</item>
+<item quantity="other">"maalmaha <xliff:g id="number">%d</xliff:g> oo dhan"</item>
+</plurals>
+<string name="every_weekday">"dhamaadkadak(Mon\u2013Fri)todobaad kasta"</string>
+<plurals name="weekly">
+<item quantity="one">"Tdobaadkle ah <xliff:g id="days_of_week">%2$s</xliff:g>"</item>
+<item quantity="other">"Asbuuc <xliff:g id="number">%1$d</xliff:g> asta waa shidanyayhay <xliff:g id="days_of_week">%2$s</xliff:g>"</item>
+</plurals>
+<string name="monthly">"Bile ah"</string>
+<string name="yearly_plain">"Sanadle ah"</string>
+<string name="monthly_on_day">"Bile ah (malinta<xliff:g id="day_of_month">%s</xliff:g>)"</string>
+<string name="yearly">"sanadle(ee <xliff:g id="dates">%s</xliff:g>)"</string>
+<string name="custom" product="tablet">"Macmiil (laguma habayn karo tabletka)"</string>
+<string name="custom" product="default">"Macmiil (laguma habayn karo teleefanka)"</string>
+<string name="modify_event">"Badal kaliye munaasabadaan"</string>
+<string name="modify_all">"Dhamaan munaasabadaha taxanaha ah"</string>
+<string name="modify_all_following">"Badal tan iyo dhamaan munaasabadaha mustaqbalka"</string>
+<string name="new_event_dialog_label">"Dhacdo cusub"</string>
+<string name="new_event_dialog_option">"Dhacdo cusub"</string>
+<string name="delete_this_event_title">"Tirtir munaasabadaan"</string>
+<string name="delete_recurring_event_title">"Tiritr <xliff:g id="eventtitle">%s</xliff:g>?"</string>
+<string name="change_response_title">"Badal jawaabta"</string>
+<string name="menu_general_preferences">"Qaabaynada guud"</string>
+<string name="menu_about_preferences">"Qusaysa calendar-ka"</string>
+<string name="preferences_title">"Qaabaynada"</string>
+<string name="preferences_general_title">"Muuqaalka isku hagaajinta kal-tirsiga"</string>
+<string name="preferences_reminder_title">"Xasuusinta \u0026 ogaysiinta"</string>
+<string name="preferences_hide_declined_title">"Qari dhacdooyinka la diiday"</string>
+<string name="preferences_week_start_day_title">"Asbuuca wuxuu ku bilaawanaya"</string>
+<string name="preferences_week_start_day_dialog">"Asbuuca wuxuu ku bilaawanaya"</string>
+<string name="preferences_clear_search_history_title">"Tirtir taariikhda baarista"</string>
+<string name="preferences_clear_search_history_summary">"Ka saar dhammaan baarista aad samaysay"</string>
+<string name="search_history_cleared">"Taariikhda baarista wala tirtiray."</string>
+<string name="preferences_alerts_title">"Ogaysiisyada"</string>
+<string name="preferences_alerts_vibrateWhen_title">"Gariir"</string>
+<string name="preferences_alerts_ringtone_title">"Codka"</string>
+<string name="preferences_alerts_popup_title">"Ogaysiinta ogaysiiska"</string>
+<string name="preferences_default_reminder_title">"Xasuusinta wakhtiga fulin la\'aanta"</string>
+<string name="preferences_default_reminder_dialog">"Xasuusinta wakhtiga fulin la\'aanta"</string>
+<string name="preferences_use_home_tz_title">"Isticmaal wakhtiga soonaha magaalada"</string>
+<string name="preferences_use_home_tz_descrip">"Waxay soo bandhigta kal-tirsiyada iyo wakhtiyada dhacdooyinka gudaha soonaha wakhtiga magaaladaada marki aad safrayso"</string>
+<string name="preferences_home_tz_title">"Goobta wakhtiga magaalada"</string>
+<string name="preferences_show_week_num_title">"Tus nambarka asbuuca"</string>
+<string name="preferences_about_title">"Ku saabsan"</string>
+<string name="preferences_build_version">"Werinka u ku dhisanyahay"</string>
+<string name="gadget_title">"Ka-tirsiga"</string>
+<string name="gadget_no_events">"Majirto dhacdooyinka kal-tirsiga oo soosocda"</string>
+<string name="preferences_experimental_category">"Tijaabo"</string>
+<string name="preferences_reminders_category">"Xasuusiyeyaal:"</string>
+<string name="preferences_reminders_responded_label">"Kabood Xasuusinta"</string>
+<string name="preferences_reminders_responded_dialog">"Kabood Xasuusinta"</string>
+<string name="preferences_reminders_quiet_hours_label">"Saacadaha degan"</string>
+<string name="preferences_reminders_quiet_hours_description">"Aamusi xasuusinta dhacdooyinka inta lagu jiro wakhti gaar ah."</string>
+<string name="preferences_reminders_quiet_hours_start">"Aamusi saacadaha wakhtiga bilaabashada"</string>
+<string name="preferences_reminders_quiet_hours_end">"Aamusi saacadaha wakhtiga dhammaadka"</string>
+<string name="preferences_debug_category">"Cillad ka saaridda"</string>
+<string name="copy_db">"Dir xogta ku keydsan kumbiyuutarka"</string>
+<string name="directory_searching_fmt">"Baarid <xliff:g id="domain">%s</xliff:g>\u2026"</string>
+<string name="accessibility_remove_attendee">"Ka saar ka qaybgalaha"</string>
+<string name="accessibility_pick_start_date">"Taariikhda bilaabashada"</string>
+<string name="accessibility_pick_start_time">"Wakhtiga bilaabashada"</string>
+<string name="accessibility_pick_end_date">"Taariikhda dhammaadka  "</string>
+<string name="accessibility_pick_end_time">"Wakhtiga dhammaadka"</string>
+<string name="accessibility_pick_time_zone">"Aaga waqtiga"</string>
+<string name="accessibility_pick_recurrence">"Kuceli dhacdada"</string>
+<string name="accessibility_add_reminder">"Kudar xasuusiye"</string>
+<string name="accessibility_remove_reminder">"Ka saar xasuusinta"</string>
+<string name="accessibility_add_attendee">"Kudar ka qaybgalaha"</string>
+<string name="accessibility_sync_cal">"Wafaaji kal-tirsiga"</string>
+<string name="accessibility_all_day">"Dhacdada maalinta oo dhan"</string>
+<string name="accessibility_repeats">"Ku celinta"</string>
+<string name="accessibility_reminder_time">"Wakhtiga xasuusinta"</string>
+<string name="accessibility_reminder_type">"Nooca xasuusinta"</string>
+<string name="accessibility_reminder_showmeas">"Iitus sida"</string>
+<string name="accessibility_reminder_privacy">"Qaas ah"</string>
+<string name="acessibility_cal_notification">"Ogaysiinta Kal-tirsiga"</string>
+<string name="acessibility_snooze_notification">"Si kumeelgaar ah u aamusi Ogaysiinta"</string>
+<string name="accessibility_email_notification">"Email uqor martida"</string>
+<string name="day_view_new_event_hint">"+ Dhacdo cusub"</string>
+<string name="template_announce_item_index">"Dhacdo <xliff:g id="item_index">%1$s</xliff:g> ee <xliff:g id="item_count">%2$s</xliff:g>."</string>
+<plurals name="Nevents">
+<item quantity="one">"1 dhacdo"</item>
+<item quantity="other">"<xliff:g id="count">%d</xliff:g> Munaasabado"</item>
+</plurals>
+<plurals name="N_remaining_events">
+<item quantity="one">"+1 dhacdo"</item>
+<item quantity="other">"+<xliff:g id="count">%d</xliff:g> dhacdooyinka"</item>
+</plurals>
+<string name="acessibility_selected_marker_description">"Dooro dhacdada"</string>
+<string name="do_not_check">"HA calaamadin -&gt;"</string>
+<string name="recurrence_dialog_title">"Kuceli"</string>
+<string name="recurrence_dialog_title_never">"Marnaba haku celin"</string>
+<plurals name="recurrence_interval_daily">
+<item quantity="one">"Maalin <xliff:g id="count">%d</xliff:g> kasta"</item>
+<item quantity="other">"Maalmaha <xliff:g id="count">%d</xliff:g> oo dhan"</item>
+</plurals>
+<plurals name="recurrence_interval_weekly">
+<item quantity="one">"Asbuuc <xliff:g id="count">%d</xliff:g> kasta"</item>
+<item quantity="other">"Asbuucyo <xliff:g id="count">%d</xliff:g> walba"</item>
+</plurals>
+<plurals name="recurrence_interval_monthly">
+<item quantity="one">"Bil <xliff:g id="count">%d</xliff:g> kasta"</item>
+<item quantity="other">"Bilaha <xliff:g id="count">%d</xliff:g> walba"</item>
+</plurals>
+<plurals name="recurrence_interval_yearly">
+<item quantity="one">"Sanad <xliff:g id="count">%d</xliff:g> kasta"</item>
+<item quantity="other">"Sanadaha <xliff:g id="count">%d</xliff:g> walba"</item>
+</plurals>
+<string name="recurrence_month_pattern_by_day">"isla maalinta bil walba"</string>
+<string name="recurrence_end_continously">"Abad"</string>
+<string name="recurrence_end_date_label">"Ilaa laga gaaro taariikh"</string>
+<string name="recurrence_end_date">"Ilaa <xliff:g id="date">%s</xliff:g>"</string>
+<string name="recurrence_end_count_label">"Lagu talagalay tiro dhacdooyinka"</string>
+<plurals name="recurrence_end_count">
+<item quantity="one">"Lagu talagalay <xliff:g id="event_count">%d</xliff:g> dhacdo"</item>
+<item quantity="other">"Lagu talagalay <xliff:g id="event_count">%d</xliff:g> dhacdooyinka"</item>
+</plurals>
+<string name="acessibility_recurrence_choose_end_date_description">"bedel taariikhda dhammaadka "</string>
+<string name="email_format_err">"Cilladda qaabka ciwaanka iimaylka martida!"</string>
+<string name="local_account">"Akoon Maxaali ah"</string>
+<string name="can_not_synced">"Lama wafaajin karo"</string>
+<string name="menu_share">"Wadaag"</string>
+<string name="send_calendar">"Dhacdada ku wadaag"</string>
+<string name="no_way_to_share_calendar">"Majirto barnamiij la heli karo oo wadaagi karaa dhacdada kal-tirsiga."</string>
+<string name="ringtone_default_message">"Waanu kaxanuhay, faylalka codka soodhicista mashaqaynayaan, kadhig faylalka codka rasmiga ah inay noqdaan codka soodhicista."</string>
+<string name="select_date_out_range">"Taariikhda ikhtiyaarkaaga ka baxsan safka, safka saxsan waa 1970-2037."</string>
+<string name="title_too_long">"Wax ku daarida aad buu u dheeryahay"</string>
+<string name="type_vcalendar">"Ka-tirsiga"</string>
+<string name="import_vcalendar">"Soodeji Kal-tirsiga?"</string>
+<string name="parse_fail">"Akhrinta faylka waa lagu guuldaraystay!"</string>
+<string name="import_error">"Soodejinta faylka waa lagu guuldaraystay!"</string>
+<string name="import_waiting">"Dejinaaya,fadlan sug..."</string>
+<string name="import_ok">"Dejinta dhacdo(yinka) waa lagu guuleeystay! "</string>
+<string name="import_type_error">"Nooca akoonka lagu talagalay waxqabadka dejinta lagama heli karo kal-tirsiga hadda"</string>
+<string name="no_exist_accounts">"Majirto akoon kal-tirsi oo la heli karaa. Fadlan kudar akoonka!"</string>
+<string name="application_stop">"Barnamiijka maarayn karaa hawlgalkan lama heli karo"</string>
+<string name="error_permissions">"Barnamiijkan malahan ogolaanshaha aasaasiga ah uu ku kaco. Fadlan hubi qaabaynadaada ogolaanshaha"</string>
+<string name="dialog_dismiss">"Ka bixid"</string>
+<string name="toast_calendar_internal_error">"Cilad gudaha ah ayaa kudhacday kalandarka!"</string>
+<string name="not_save_event">"Taariikhda dhammaadka laguma ogoola in lagu keydiyo waxqabadkan"</string>
+<string name="sqlite_full">"Kaydka kal-tirsiga ama cajaladda waa buuxaa"</string>
+<string name="delete_all_event">"Tirtir Dhamaan Dhacdooyinka"</string>
+<string name="delete_all_event_title">"Ma hubtaa in aad tirtirtid dhammaan dhacdooyinka?"</string>
+<string name="delete_error">"Malihid wax dhacdo ah."</string>
+<string name="delete_title">"tirtir"</string>
+<string name="remind_read_userdata_title">"Akhri macluumaadka isticmaalaha"</string>
+<string name="read_userdata_content">"Martida iyo goobta ayaa akhrinaaya macluumaadka contact-ga"</string>
+<string name="hint_attendees_et">"Martida(Lagu kalasoocay hakadka)"</string>
+<string name="yes">"Haa"</string>
+<string name="no">"Maya"</string>
+<string-array name="calendar_week">
+<item>"Axd"</item>
+<item>"Isn"</item>
+<item>"Tald"</item>
+<item>"Aro"</item>
+<item>"Kham"</item>
+<item>"Jamc"</item>
+<item>"Sab"</item>
+</string-array>
+<string name="request_permissions">"Ogoolaanshaha Kal-tirsiga"</string>
+<string name="notask">"Faaruq ah"</string>
+<string name="month_today">"Maanta"</string>
+<string name="month_tomorrow">"Bari\'"</string>
+<string name="month_yesterday">"Shalay"</string>
+<string name="month_after_tomorrow">"Bari danbe"</string>
+<string name="month_before_yesterday">"Daraad"</string>
+<string name="month_before">" Maalmo kahor"</string>
+<string name="month_after">" Maalmo kadib"</string>
+</resources>
