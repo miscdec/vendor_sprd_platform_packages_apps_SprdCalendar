@@ -149,7 +149,7 @@ public class CalendarAppWidgetProvider extends AppWidgetProvider {
             launchCalendarIntent
                     .setData(Uri.parse("content://com.android.calendar/time/" + millis));
             final PendingIntent launchCalendarPendingIntent = PendingIntent.getActivity(
-                    context, 0 /* no requestCode */, launchCalendarIntent, 0 /* no flags */);
+                    context, 0 /* no requestCode */, launchCalendarIntent, PendingIntent.FLAG_IMMUTABLE /* no flags */);
             views.setOnClickPendingIntent(R.id.header, launchCalendarPendingIntent);
 
             appWidgetManager.updateAppWidget(appWidgetId, views);
@@ -205,7 +205,7 @@ public class CalendarAppWidgetProvider extends AppWidgetProvider {
             launchCalendarIntent
                     .setData(Uri.parse("content://com.android.calendar/time/" + millis));
             final PendingIntent launchCalendarPendingIntent = PendingIntent.getActivity(
-                    context, 0 /* no requestCode */, launchCalendarIntent, 0 /* no flags */);
+                    context, 0 /* no requestCode */, launchCalendarIntent, PendingIntent.FLAG_IMMUTABLE /* no flags */);
             views.setOnClickPendingIntent(R.id.header, launchCalendarPendingIntent);
 
             // Each list item will call setOnClickExtra() to let the list know
@@ -230,7 +230,7 @@ public class CalendarAppWidgetProvider extends AppWidgetProvider {
         Intent intent = new Intent(Utils.getWidgetScheduledUpdateAction(context));
         intent.setDataAndType(CalendarContract.CONTENT_URI, Utils.APPWIDGET_DATA_TYPE);
         return PendingIntent.getBroadcast(context, 0 /* no requestCode */, intent,
-                0 /* no flags */);
+                PendingIntent.FLAG_IMMUTABLE /* no flags */);
     }
 
     /**
@@ -244,7 +244,7 @@ public class CalendarAppWidgetProvider extends AppWidgetProvider {
                 Intent.FLAG_ACTIVITY_TASK_ON_HOME);
             launchIntent.setClass(context, AllInOneActivity.class);
             return PendingIntent.getActivity(context, 0 /* no requestCode */, launchIntent,
-                    PendingIntent.FLAG_UPDATE_CURRENT);
+                    PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
     }
 
     /**

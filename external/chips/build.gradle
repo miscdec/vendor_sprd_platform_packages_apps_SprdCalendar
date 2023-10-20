@@ -1,0 +1,23 @@
+import org.gradle.api.artifacts.Dependency;
+
+apply plugin: 'com.android.library'
+
+android {
+    sourceSets.main {
+        manifest.srcFile 'AndroidManifest.xml'
+        java.srcDirs = ['src']
+        res.srcDirs = ['res']
+    }
+}
+
+dependencies {
+    implementation findDependency(':support-v4', 'androidx.legacy:legacy-support-v4:1.0.0')
+}
+
+Dependency findDependency(String projectName, String moduleName) {
+    if (findProject(projectName) != null) {
+        return dependencies.project(path: projectName)
+    }
+
+    return dependencies.create(moduleName)
+}

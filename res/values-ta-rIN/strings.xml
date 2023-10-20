@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"ஆண்டுதோறும்"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"மாதந்தோறும் (<xliff:g id="DAY_OF_MONTH">%s</xliff:g> அன்று)"</string>
     <string name="yearly" msgid="8576208380302949002">"ஆண்டுந்தோறும் (<xliff:g id="DATES">%s</xliff:g> அன்று)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"தனிப்பயன் (டேப்லெட்டில் தனிப்பயனாக்க முடியாது)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"தனிப்பயன் (தொலைபேசியில் தனிப்பயனாக்க முடியாது)"</string>
     <string name="modify_event" msgid="5982876409997142690">"இந்த நிகழ்வை மட்டும் மாற்று"</string>
     <string name="modify_all" msgid="4421657265864209041">"தொடரில் உள்ள எல்லா நிகழ்வுகளையும் மாற்று"</string>

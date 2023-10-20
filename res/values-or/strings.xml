@@ -152,7 +152,7 @@
 <string name="yearly_plain">"ବାର୍ଷିକ"</string>
 <string name="monthly_on_day">"ମାସିକ (<xliff:g id="day_of_month">%s</xliff:g> ଦିନରେ)"</string>
 <string name="yearly">"ବାର୍ଷିକ (<xliff:g id="dates">%s</xliff:g> ରେ)"</string>
-<string name="custom" product="tablet">"କଷ୍ଟମ୍‍ (ଟାବ୍‍‍ଲେଟ୍‍‍ରେ କଷ୍ଟମାଇଜ୍‍ କରିପାରିବ ନାହିଁ)"</string>
+
 <string name="custom" product="default">"କଷ୍ଟମ୍‍ (ଫୋନ୍‍‍ରେ କଷ୍ଟମାଇଜ୍‍ କରିପାରିବ ନାହିଁ)"</string>
 <string name="modify_event">"କେବଳ ଏହି ଘଟନାକୁ ପରିବର୍ତ୍ତନ କରନ୍ତୁ"</string>
 <string name="modify_all">"ଏହି ପର୍ଯ୍ୟାୟରେ ଥିବା ସମସ୍ତ ଘଟନାକୁ ପରିବର୍ତ୍ତନ କରନ୍ତୁ"</string>

@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"Жил бүр"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"Сар бүр (<xliff:g id="DAY_OF_MONTH">%s</xliff:g> өдөр)"</string>
     <string name="yearly" msgid="8576208380302949002">"Жил бүр (<xliff:g id="DATES">%s</xliff:g> тутам)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"Өөрийн (таблет дээр өөрийн тохиргоо хийх боломжгүй)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"Өөрийн (утсан дээр өөрийн тохиргоо хийх боломжгүй)"</string>
     <string name="modify_event" msgid="5982876409997142690">"Зөвхөн энэ үйл явдлыг өөрчлөх"</string>
     <string name="modify_all" msgid="4421657265864209041">"Дараалсан бүх үйл явдлыг өөрчлөх"</string>

@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"වාර්ෂිකව"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"මාසිකව (<xliff:g id="DAY_OF_MONTH">%s</xliff:g> දින)"</string>
     <string name="yearly" msgid="8576208380302949002">"වාර්ෂිකව (<xliff:g id="DATES">%s</xliff:g> දින)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"අභිරුචි (ටැබ්ලටයමත අභිරුචි කළ නොහැක)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"අභිරුචි (දුරකථනයමත අභිරුචි කළ නොහැක)"</string>
     <string name="modify_event" msgid="5982876409997142690">"මෙම සිදුවීම පමණක් වෙනස් කරන්න"</string>
     <string name="modify_all" msgid="4421657265864209041">"මාලාවේ සියලු සිදුවීම් වෙනස් කරන්න"</string>

@@ -2,11 +2,11 @@ package com.sprd.calendar.newmonth.month;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.view.ViewPager;
 import android.text.format.Time;
 import android.util.AttributeSet;
 import android.util.SparseArray;
-import android.view.ViewTreeObserver;
+
+import androidx.viewpager.widget.ViewPager;
 
 import com.android.calendar.R;
 import com.sprd.calendar.newmonth.OnCalendarClickListener;

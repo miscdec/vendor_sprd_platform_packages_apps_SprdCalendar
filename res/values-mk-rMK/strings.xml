@@ -151,7 +151,7 @@
 <string name="yearly_plain">Годишно</string>
 <string name="monthly_on_day">"Месечно (на ден <xliff:g id="day_of_month">%s</xliff:g>)"</string>
 <string name="yearly">"Годишно (на <xliff:g id="dates">%s</xliff:g>)"</string>
-<string name="custom" product="tablet">"Персонализиран (не може да се приспособи на таблетот)"</string>
+
 <string name="custom" product="default">"Персонализиран (не може да се приспособи на телефонот)"</string>
 <string name="modify_event">Промена само на овој настан</string>
 <string name="modify_all">Променете ги сите настани во серијата</string>

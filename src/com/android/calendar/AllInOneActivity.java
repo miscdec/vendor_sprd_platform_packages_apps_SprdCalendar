@@ -1770,7 +1770,7 @@ public class AllInOneActivity extends AbstractCalendarActivity implements
         // JavaCrash,log:java.lang.IllegalStateException
         // SPRD: Add for bug547648, NullPointerException: mDatePickerDialog is
         // not attached to Activity
-        if (mDatePickerDialog != null && isResumed()) {
+        if (mDatePickerDialog != null) {
             mDatePickerDialog.dismiss();
         }
         mDatePickerDialog = new DatePickerDialog(this, new DateListener(),
@@ -1783,9 +1783,9 @@ public class AllInOneActivity extends AbstractCalendarActivity implements
          * SPRD for Bug531074 com.android.calendar happens
          * JavaCrash,log:java.lang.IllegalStateException @ }
          */
-        if (isResumed()) {
+//        if (isResumed()) {
             mDatePickerDialog.show();
-        }
+//        }
     }
     /* @} */
 

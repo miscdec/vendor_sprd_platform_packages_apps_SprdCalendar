@@ -1,0 +1,5 @@
+/.gradle/*
+/.idea/*
+/build/*
+/external/calendar/build/*
+/external/chips/build/*

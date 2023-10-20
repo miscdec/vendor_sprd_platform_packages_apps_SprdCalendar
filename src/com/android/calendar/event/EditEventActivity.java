@@ -209,7 +209,7 @@ public class EditEventActivity extends AbstractCalendarActivity {
     @Override
     public void onBackPressed() {
         /* SPRD: Add bug 614252 java.lang.IllegalStateException in monkey  @{ */
-        if (isResumed()) {
+        if (mEditFragment.isResumed()) {
             super.onBackPressed();
             mEditFragment.onBack();
         }

@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"Ամեն տարի"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"Ամեն ամիս (<xliff:g id="DAY_OF_MONTH">%s</xliff:g>-րդ օրը)"</string>
     <string name="yearly" msgid="8576208380302949002">"Ամեն տարի (<xliff:g id="DATES">%s</xliff:g>-ին)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"Հատուկ (հնարավոր չէ հարմարեցնել գրասալիկում)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"Հատուկ (հնարավոր չէ հարմարեցնել հեռախոսում)"</string>
     <string name="modify_event" msgid="5982876409997142690">"Փոխել միայն այս իրադարձությունը"</string>
     <string name="modify_all" msgid="4421657265864209041">"Փոխել շարքի բոլոր իրադարձությունները"</string>

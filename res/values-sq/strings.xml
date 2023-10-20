@@ -152,7 +152,7 @@
 <string name="yearly_plain">Çdo vit</string>
 <string name="monthly_on_day">"Çdo muaj (në ditën <xliff:g id="day_of_month">%s</xliff:g>)"</string>
 <string name="yearly">"Çdo vit (në <xliff:g id="dates">%s</xliff:g>)"</string>
-<string name="custom" product="tablet">"Personalizuar (nuk mund të personalizohet në tablet)"</string>
+
 <string name="custom" product="default">"Personalizuar (nuk mund të personalizohet në telefon)"</string>
 <string name="modify_event">Ndrysho vetëm këtë ngjarje</string>
 <string name="modify_all">Ndrysho të gjitha ngjarjet në seri</string>

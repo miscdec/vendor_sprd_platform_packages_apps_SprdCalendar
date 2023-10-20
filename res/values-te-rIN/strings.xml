@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"ప్రతి సంవత్సరం"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"ప్రతి నెల (<xliff:g id="DAY_OF_MONTH">%s</xliff:g>వ రోజున)"</string>
     <string name="yearly" msgid="8576208380302949002">"ప్రతి సంవత్సరం (<xliff:g id="DATES">%s</xliff:g>న)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"అనుకూలం (టాబ్లెట్‌లో అనుకూలీకరించడం సాధ్యపడదు)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"అనుకూలం (ఫోన్‌లో అనుకూలీకరించడం సాధ్యపడదు)"</string>
     <string name="modify_event" msgid="5982876409997142690">"ఈ ఈవెంట్‌ను మాత్రమే మార్చండి"</string>
     <string name="modify_all" msgid="4421657265864209041">"శ్రేణిలోని అన్ని ఈవెంట్‌లను మార్చండి"</string>

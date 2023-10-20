@@ -28,7 +28,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteFullException;
-import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
@@ -47,9 +46,8 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.util.Log;
-import android.provider.Settings;
 //import android.provider.SettingsEx;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 
 import com.android.calendar.GeneralPreferences;
 import com.android.calendar.OtherPreferences;
@@ -60,8 +58,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.TimeZone;
-import android.os.PowerManager;
-import static android.provider.Settings.System.NOTIFICATION_LIGHT_PULSE;
 
 /**
  * This service is used to handle calendar event reminders.
@@ -71,6 +67,13 @@ public class AlertService extends Service {
     private static final String TAG = "AlertService";
     public static int NOTIFICATION_ID = 0x10000000; // UNISOC: Modify for bug1146368,1170619
 
+    /**
+     * Whether the notification LED should repeatedly flash when a notification is
+     * pending. The value is boolean (1 or 0).
+     * @hide
+     */
+
+    public static final String NOTIFICATION_LIGHT_PULSE = "notification_light_pulse";
     private volatile Looper mServiceLooper;
     private volatile ServiceHandler mServiceHandler;
 

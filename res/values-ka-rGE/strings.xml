@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"ყოველწლიურად"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"ყოველთვიურად (<xliff:g id="DAY_OF_MONTH">%s</xliff:g>-ობით)"</string>
     <string name="yearly" msgid="8576208380302949002">"ყოველწლიურად (<xliff:g id="DATES">%s</xliff:g>-ს)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"მორგებული (ტაბლეტზე მორგება ვერ ხერხდება)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"მორგებული (ტელეფონზე მორგება ვერ ხერხდება)"</string>
     <string name="modify_event" msgid="5982876409997142690">"მხოლოდ ამ ღონისძიების შეცვლა"</string>
     <string name="modify_all" msgid="4421657265864209041">"ამ სერიებში ყველა ღონისძიების შეცვლა"</string>

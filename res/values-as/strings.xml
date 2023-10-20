@@ -151,7 +151,7 @@
 <string name="yearly_plain">"বছৰেকীয়া"</string>
 <string name="monthly_on_day">"মাহেকীয়া (দিনত <xliff:g id="day_of_month">%s</xliff:g>)"</string>
 <string name="yearly">"বছৰেকীয়া ( <xliff:g id="dates">%s</xliff:g>ত)"</string>
-<string name="custom" product="tablet">"কাষ্টম (টেবলেটত কাষ্টমাইজ কৰিব নোৱাৰি)"</string>
+
 <string name="custom" product="default">"কাষ্টম (ফোনত কাষ্টমাইজ কৰিব নোৱাৰি)"</string>
 <string name="modify_event">"কেৱল এইটো অনুষ্ঠান সলনি কৰক"</string>
 <string name="modify_all">"এই শৃংখলাটোত থকা আটাইবোৰ অনুষ্ঠান সলনি কৰক"</string>

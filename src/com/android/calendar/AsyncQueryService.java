@@ -26,7 +26,7 @@ import android.content.res.Resources;
 import android.database.sqlite.SQLiteDiskIOException;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteFullException;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.widget.Toast;
 
 import android.content.ContentProviderOperation;
@@ -440,7 +440,7 @@ public class AsyncQueryService extends Handler {
                         .setSmallIcon(android.R.drawable.stat_sys_warning)
                         .setContentIntent(
                                 PendingIntent.getActivity(mContext, mTag.hashCode(),
-                                        new Intent(), PendingIntent.FLAG_CANCEL_CURRENT))
+                                        new Intent(), PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE))
                         .build());
         Toast.makeText(mContext, title, Toast.LENGTH_LONG).show();
     }

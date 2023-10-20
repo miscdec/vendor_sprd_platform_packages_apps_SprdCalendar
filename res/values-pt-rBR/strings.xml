@@ -151,7 +151,7 @@
 <string name="yearly_plain">"Anual"</string>
 <string name="monthly_on_day">"Mensalmente (no dia <xliff:g id="day_of_month">%s</xliff:g>)"</string>
 <string name="yearly">"Anualmente (em <xliff:g id="dates">%s</xliff:g>)"</string>
-<string name="custom" product="tablet">"Personalizado (não pode personalizar no tablete)"</string>
+
 <string name="custom" product="default">"Personalizado (não pode personalizar no telefone)"</string>
 <string name="modify_event">"Mudar apenas este evento"</string>
 <string name="modify_all">"Mudar todos os eventos em séries"</string>

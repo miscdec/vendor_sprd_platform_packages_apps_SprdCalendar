@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"နှစ်စဉ်"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"လစဉ် (<xliff:g id="DAY_OF_MONTH">%s</xliff:g>ရက်တွင်)"</string>
     <string name="yearly" msgid="8576208380302949002">"နှစ်စဉ် (<xliff:g id="DATES">%s</xliff:g> တွင်)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"စိတ်ကြိုက် (တက်ဘလက် ထဲတွင် စိတ်ကြိုက် ပြုပြင်၍မရပါ)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"စိတ်ကြိုက် (ဖုန်း ထဲတွင် စိတ်ကြိုက် ပြုပြင် မရပါ)"</string>
     <string name="modify_event" msgid="5982876409997142690">"ဒီဖြစ်ရပ်ကိုသာ ပြောင်းလဲရန်"</string>
     <string name="modify_all" msgid="4421657265864209041">"စီးရီးများထဲက ဖြစ်ရပ် အားလုံး ပြောင်းလဲရန်"</string>

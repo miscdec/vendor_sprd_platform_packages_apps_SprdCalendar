@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"ປະຈໍາປີ"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"ທຸກເດືອນ (ໃນວັນທີ <xliff:g id="DAY_OF_MONTH">%s</xliff:g>)"</string>
     <string name="yearly" msgid="8576208380302949002">"ປະຈໍາປີ (ໃນວັນທີ <xliff:g id="DATES">%s</xliff:g>)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"ກຳນົດເອງ (ບໍ່ສາມາດກຳນົດໃນແທັບເລັດໄດ້)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"ກຳນົດເອງ (ບໍ່ສາມາດກຳນົດໃນໂທລະສັບໄດ້)"</string>
     <string name="modify_event" msgid="5982876409997142690">"ປ່ຽນແປງສະເພາະນັດໝາຍນີ້"</string>
     <string name="modify_all" msgid="4421657265864209041">"ປ່ຽນແປງທຸກການນັດໝາຍແບບດຽວກັນ"</string>

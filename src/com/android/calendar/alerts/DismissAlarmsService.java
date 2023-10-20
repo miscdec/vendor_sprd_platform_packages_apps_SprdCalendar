@@ -18,7 +18,6 @@ package com.android.calendar.alerts;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
-import android.app.Notification;
 import android.app.NotificationChannel;
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -30,7 +29,7 @@ import android.os.IBinder;
 import android.os.Build;
 import android.provider.CalendarContract.CalendarAlerts;
 import androidx.core.app.TaskStackBuilder;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 
 import android.util.Log;
 import com.android.calendar.EventInfoActivity;

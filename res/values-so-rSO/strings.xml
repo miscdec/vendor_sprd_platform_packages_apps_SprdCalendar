@@ -152,7 +152,7 @@
 <string name="yearly_plain">"Sanadle ah"</string>
 <string name="monthly_on_day">"Bile ah (malinta<xliff:g id="day_of_month">%s</xliff:g>)"</string>
 <string name="yearly">"sanadle(ee <xliff:g id="dates">%s</xliff:g>)"</string>
-<string name="custom" product="tablet">"Macmiil (laguma habayn karo tabletka)"</string>
+
 <string name="custom" product="default">"Macmiil (laguma habayn karo teleefanka)"</string>
 <string name="modify_event">"Badal kaliye munaasabadaan"</string>
 <string name="modify_all">"Dhamaan munaasabadaha taxanaha ah"</string>

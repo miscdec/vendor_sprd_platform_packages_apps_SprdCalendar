@@ -16,7 +16,6 @@
 
 package com.android.calendar.widget;
 
-import android.Manifest;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.app.NotificationChannel;
@@ -27,7 +26,6 @@ import android.content.Context;
 import android.content.CursorLoader;
 import android.content.Intent;
 import android.content.Loader;
-import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.MatrixCursor;
@@ -43,9 +41,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 
-import com.android.calendar.ApiHelper;
 import com.android.calendar.R;
 import com.android.calendar.Utils;
 import com.android.calendar.widget.CalendarAppWidgetModel.DayInfo;

@@ -1227,7 +1227,7 @@ public class RecurrencePickerDialog extends DialogFragment implements OnItemSele
     @Override
     public void onClick(View v) {
         /* SPRD for Bug531074/532166 com.android.calendar happens JavaCrash,log:java.lang.IllegalStateException @ }*/
-        if (getActivity() == null || !getActivity().isResumed()) {
+        if (getActivity() == null || !isResumed()) {
             return;
         }
         /* @ }*/

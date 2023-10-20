@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"वार्षिक रूपमा"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"मासिक रूपमा (<xliff:g id="DAY_OF_MONTH">%s</xliff:g> दिनमा)"</string>
     <string name="yearly" msgid="8576208380302949002">"वार्षिक रूपमा (<xliff:g id="DATES">%s</xliff:g> मा)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"अनुकूलन (ट्याब्लेटमा अनुकूलन गर्न सक्दैन)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"अनुकूलन (फोनमा अनुकूलन गर्न सक्दैन)"</string>
     <string name="modify_event" msgid="5982876409997142690">"केवल यो घटना बदल्नुहोस्"</string>
     <string name="modify_all" msgid="4421657265864209041">"क्रममा रहेका सबै घटनाहरू बदल्नुहोस्"</string>

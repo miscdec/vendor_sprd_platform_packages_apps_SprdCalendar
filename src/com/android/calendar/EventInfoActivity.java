@@ -247,9 +247,9 @@ public class EventInfoActivity extends Activity {
      */
     @Override
     public void onBackPressed() {
-        if (isResumed()) {
+//        if (isResumed()) {
             super.onBackPressed();
-        }
+//        }
     }
     /* @} */
 

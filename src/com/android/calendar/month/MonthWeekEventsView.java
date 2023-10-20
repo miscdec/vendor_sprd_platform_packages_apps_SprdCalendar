@@ -1259,7 +1259,7 @@ public class MonthWeekEventsView extends SimpleWeekView {
         if (weekDay < 0) {
             return -1;
         }
-        int firstDayOfWeek = Utils.getFirstDayOfWeek(mContext);
+        int firstDayOfWeek = Utils.getFirstDayOfWeek(getContext());
         mSelectedDayIndex = weekDay - firstDayOfWeek;
         // fix it if index < 0
         if (mSelectedDayIndex < 0) {

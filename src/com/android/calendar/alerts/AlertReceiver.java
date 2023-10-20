@@ -16,7 +16,6 @@
 
 package com.android.calendar.alerts;
 
-import android.Manifest;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.NotificationChannel;
@@ -26,7 +25,6 @@ import android.content.BroadcastReceiver;
 import android.content.ContentUris;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.net.Uri;
@@ -49,10 +47,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.Toast;
-import android.support.v4.app.NotificationCompat;
-import android.media.AudioAttributes;
 
-import com.android.calendar.ApiHelper;
+import androidx.annotation.RequiresApi;
+
 import com.android.calendar.R;
 import com.android.calendar.Utils;
 import com.android.calendar.alerts.AlertService.NotificationWrapper;
@@ -231,7 +228,7 @@ public class AlertReceiver extends BroadcastReceiver {
                 PowerManager pm =
                     (PowerManager)context.getSystemService(Context.POWER_SERVICE);
                 mStartingService = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK,
-                        "StartingAlertService");
+                        "Calendar:StartingAlertService");
                 mStartingService.setReferenceCounted(false);
             }
             mStartingService.acquire();
@@ -288,7 +285,7 @@ public class AlertReceiver extends BroadcastReceiver {
         ContentUris.appendId(builder, eventId);
         ContentUris.appendId(builder, startMillis);
         intent.setData(builder.build());
-        return PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        return PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
     }
 
     private static PendingIntent createSnoozeIntent(Context context, long eventId,
@@ -304,7 +301,7 @@ public class AlertReceiver extends BroadcastReceiver {
         ContentUris.appendId(builder, eventId);
         ContentUris.appendId(builder, startMillis);
         intent.setData(builder.build());
-        return PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+        return PendingIntent.getService(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
     }
 
     /* UNISOC: Modify for bug1147976 @{ */
@@ -312,7 +309,7 @@ public class AlertReceiver extends BroadcastReceiver {
         Intent clickIntent = new Intent();
         clickIntent.setClass(context, AlertActivity.class);
         clickIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        return PendingIntent.getActivity(context, 0, clickIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+        return PendingIntent.getActivity(context, 0, clickIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
     }
     /* @} */
 
@@ -326,6 +323,7 @@ public class AlertReceiver extends BroadcastReceiver {
     }
 
     /* UNISOC: Modify for bug 1144924,1150809,1202613 @{ */
+    @RequiresApi(api = Build.VERSION_CODES.O)
     public static void createAlertsNotificationChannel(Context context, String channelId) {
         NotificationManager notificationMgr = context.getSystemService(NotificationManager.class);
         String notifiUriString, channelName;
@@ -359,7 +357,7 @@ public class AlertReceiver extends BroadcastReceiver {
             long eventId, int notificationId, boolean doPopup, int priority,
             boolean addActionButtons) {
         Resources resources = context.getResources();
-        if (title == null || title.length() == 0) {
+        if (title == null || title.isEmpty()) {
             title = resources.getString(R.string.no_title_label);
         }
 
@@ -569,7 +567,7 @@ public class AlertReceiver extends BroadcastReceiver {
         deleteIntent.putExtra(AlertUtils.EVENT_IDS_KEY, eventIds);
         deleteIntent.putExtra(AlertUtils.EVENT_STARTS_KEY, startMillis);
         PendingIntent pendingDeleteIntent = PendingIntent.getService(context, 0, deleteIntent,
-                PendingIntent.FLAG_UPDATE_CURRENT);
+                PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
         if (digestTitle == null || digestTitle.length() == 0) {
             digestTitle = res.getString(R.string.no_title_label);
@@ -680,8 +678,8 @@ public class AlertReceiver extends BroadcastReceiver {
     }
 
     private void closeNotificationShade(Context context) {
-        Intent closeNotificationShadeIntent = new Intent(Intent.ACTION_CLOSE_SYSTEM_DIALOGS);
-        context.sendBroadcast(closeNotificationShadeIntent);
+//        Intent closeNotificationShadeIntent = new Intent(Intent.ACTION_CLOSE_SYSTEM_DIALOGS);
+//        context.sendBroadcast(closeNotificationShadeIntent);
     }
 
     private static final String[] ATTENDEES_PROJECTION = new String[] {
@@ -754,7 +752,7 @@ public class AlertReceiver extends BroadcastReceiver {
                         broadcastIntent.putExtra(EXTRA_EVENT_ID, eventId);
                         return PendingIntent.getBroadcast(context,
                                 Long.valueOf(eventId).hashCode(), broadcastIntent,
-                                PendingIntent.FLAG_CANCEL_CURRENT);
+                                PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE);
                     }
                 } while (attendeesCursor.moveToNext());
             }
@@ -895,7 +893,7 @@ public class AlertReceiver extends BroadcastReceiver {
                     broadcastIntent.putExtra(EXTRA_EVENT_ID, eventId);
                     return PendingIntent.getBroadcast(context,
                             Long.valueOf(eventId).hashCode(), broadcastIntent,
-                            PendingIntent.FLAG_CANCEL_CURRENT);
+                            PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE);
                 }
             }
             /* @} */
@@ -938,8 +936,7 @@ public class AlertReceiver extends BroadcastReceiver {
             return null;
         }
 
-        for (int span_i = 0; span_i < urlSpans.length; span_i++) {
-            URLSpan urlSpan = urlSpans[span_i];
+        for (URLSpan urlSpan : urlSpans) {
             String urlString = urlSpan.getURL();
             if (urlString.startsWith(TEL_PREFIX)) {
                 Intent broadcastIntent = new Intent(CALL_ACTION);
@@ -947,7 +944,7 @@ public class AlertReceiver extends BroadcastReceiver {
                 broadcastIntent.putExtra(EXTRA_EVENT_ID, eventId);
                 return PendingIntent.getBroadcast(context,
                         Long.valueOf(eventId).hashCode(), broadcastIntent,
-                        PendingIntent.FLAG_CANCEL_CURRENT);
+                        PendingIntent.FLAG_CANCEL_CURRENT | PendingIntent.FLAG_IMMUTABLE);
             }
         }
 

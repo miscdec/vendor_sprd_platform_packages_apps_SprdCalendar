@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"বাৎসরিক"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"মাসিক (<xliff:g id="DAY_OF_MONTH">%s</xliff:g> তারিখে)"</string>
     <string name="yearly" msgid="8576208380302949002">"বাৎসরিক (<xliff:g id="DATES">%s</xliff:g> তারিখে)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"কাস্টম (ট্যাবলেটে কাস্টমাইজ করা যাবে না)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"কাস্টম (ফোনে কাস্টমাইজ করা যাবে না)"</string>
     <string name="modify_event" msgid="5982876409997142690">"শুধুমাত্র এই ইভেন্টের পরিবর্তন করুন"</string>
     <string name="modify_all" msgid="4421657265864209041">"এই সিরিজের সমস্ত ইভেন্ট পরিবর্তন করুন"</string>
