@@ -1,43 +1,35 @@
 package com.sprd.calendar.newmonth.fragment;
 
-import android.os.AsyncTask;
 import android.app.Fragment;
 import android.content.Context;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
 import android.text.format.DateUtils;
 import android.text.format.Time;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
-import com.android.calendar.R;
-import com.sprd.calendar.newmonth.adapter.ScheduleAdapter;
-import com.sprd.calendar.newmonth.adapter.ScheduleOnItemClickListener;
-import com.sprd.calendar.newmonth.data.EventDao;
-import com.sprd.calendar.newmonth.task.schedule.LoadScheduleTask;
-import com.sprd.calendar.newmonth.OnCalendarClickListener;
-import com.sprd.calendar.newmonth.schedule.ScheduleLayout;
-import com.sprd.calendar.newmonth.schedule.ScheduleRecyclerView;
-import com.sprd.calendar.newmonth.listener.OnTaskFinishedListener;
+import androidx.recyclerview.widget.DefaultItemAnimator;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.android.calendar.R;
-import com.android.calendar.AllInOneActivity;
-import com.sprd.calendar.newmonth.OnCalendarClickListener;
-import com.sprd.calendar.newmonth.RecyclerDecoration;
-import com.sprd.calendar.newmonth.schedule.ScheduleLayout;
-import com.sprd.calendar.newmonth.schedule.ScheduleRecyclerView;
 import com.android.calendar.AllInOneActivity;
 import com.android.calendar.CalendarController;
 import com.android.calendar.CalendarController.EventInfo;
 import com.android.calendar.CalendarController.EventType;
 import com.android.calendar.CalendarController.ViewType;
 import com.android.calendar.Event;
+import com.android.calendar.R;
 import com.android.calendar.Utils;
+import com.sprd.calendar.newmonth.OnCalendarClickListener;
+import com.sprd.calendar.newmonth.RecyclerDecoration;
+import com.sprd.calendar.newmonth.adapter.ScheduleAdapter;
+import com.sprd.calendar.newmonth.adapter.ScheduleOnItemClickListener;
+import com.sprd.calendar.newmonth.listener.OnTaskFinishedListener;
+import com.sprd.calendar.newmonth.schedule.ScheduleLayout;
+import com.sprd.calendar.newmonth.schedule.ScheduleRecyclerView;
+import com.sprd.calendar.newmonth.task.schedule.LoadScheduleTask;
 
 import java.util.Calendar;
 import java.util.List;

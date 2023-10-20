@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources  tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- This is the label underneath the icon for Calendar -->
     <string name="app_label">Jing Calendar</string>
 
@@ -455,7 +455,7 @@
          custom (non-standard) way from the usual repeat rates (such as daily,
          weekly, etc.) and that the user cannot change this on the phone
          (but only on the web). -->
-    <string name="custom" product="tablet">"Custom (can\'t customize on tablet)"</string>
+
     <!-- This is a label for telling the user that this event repeats in
          custom (non-standard) way from the usual repeat rates (such as daily,
          weekly, etc.) and that the user cannot change this on the phone

@@ -203,7 +203,7 @@ public abstract class RequestPermissionsActivityBase extends Activity {
 
     @Override
     public void onBackPressed() {
-        if (isResumed()) {
+        if (this.mResumed) {
             super.onBackPressed();
         }
     }

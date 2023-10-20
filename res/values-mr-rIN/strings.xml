@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"वार्षिक"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"मासिक (<xliff:g id="DAY_OF_MONTH">%s</xliff:g> या दिवशी)"</string>
     <string name="yearly" msgid="8576208380302949002">"वार्षिक (<xliff:g id="DATES">%s</xliff:g> रोजी)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"सानुकूल (टॅबलेटवर सानुकूलित करू शकत नाही)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"सानुकूल (फोनवर सानुकूलित करू शकत नाही)"</string>
     <string name="modify_event" msgid="5982876409997142690">"केवळ हा इव्हेंट बदला"</string>
     <string name="modify_all" msgid="4421657265864209041">"मालिकेतील सर्व इव्हेंट बदला"</string>

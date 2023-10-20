@@ -151,7 +151,7 @@
 <string name="yearly_plain">"ႏွစ္စဥ္"</string>
 <string name="monthly_on_day">"လစဥ္ (<xliff:g id="day_of_month">%s</xliff:g>) "</string>
 <string name="yearly">"ႏွစ္စဥ္ (on <xliff:g id="dates">%s</xliff:g>)"</string>
-<string name="custom" product="tablet">"စိတ္ၾကိဳက္(တက္ဘလက္တြင္ စိတ္ၾကိဳက္ျပဳလုပ္၍မရပါ)"</string>
+
 <string name="custom" product="default">"စိတ္ၾကိဳက္(ဖုန္းတြင္ စိတ္ၾကိဳက္ျပဳလုပ္၍မရပါ)"</string>
 <string name="modify_event">"ဤျဖစ္စဥ္သာေျပာင္းပါ"</string>
 <string name="modify_all">"အတြဲ႐ွိျဖစ္စဥ္အားလံုးကို ေျပာင္းပါ"</string>

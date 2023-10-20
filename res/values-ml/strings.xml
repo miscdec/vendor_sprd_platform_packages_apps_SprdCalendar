@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"പ്രതിവർഷം"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"പ്രതിമാസം (ഈ ദിവസം <xliff:g id="DAY_OF_MONTH">%s</xliff:g>)"</string>
     <string name="yearly" msgid="8576208380302949002">"വർഷം തോറും (<xliff:g id="DATES">%s</xliff:g> തീയതിയിൽ)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"ഇഷ്‌ടാനുസൃതം (ടാബ്‌ലെറ്റിൽ ഇഷ്‌ടാനുസൃതമാക്കാൻ കഴിയില്ല)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"ഇഷ്‌ടാനുസൃതം (ഫോണിൽ ഇഷ്‌ടാനുസൃതമാക്കാൻ കഴിയില്ല)"</string>
     <string name="modify_event" msgid="5982876409997142690">"ഈ ഇവന്റ് മാത്രം മാറ്റുക"</string>
     <string name="modify_all" msgid="4421657265864209041">"ഈ ശ്രേണിയിലെ എല്ലാ ഇവന്റുകളും മാറ്റുക"</string>

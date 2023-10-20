@@ -385,7 +385,7 @@ public class SettingsActivity extends Activity {
             tzpd = new TimeZonePickerDialog();
             tzpd.setArguments(b);
             tzpd.setOnTimeZoneSetListener(this);
-            tzpd.showAllowingStateLoss(fm, FRAG_TAG_TIME_ZONE_PICKER);    //SPRD: Add for bug772567
+            tzpd.show(fm, FRAG_TAG_TIME_ZONE_PICKER);    //SPRD: Add for bug772567
         }
 
         /*

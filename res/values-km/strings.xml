@@ -166,7 +166,7 @@
     <string name="yearly_plain" msgid="3652692085322162449">"ប្រចាំ​ឆ្នាំ"</string>
     <string name="monthly_on_day" msgid="5370155265278821156">"ប្រចាំខែ (នៅ​ថ្ងៃ <xliff:g id="DAY_OF_MONTH">%s</xliff:g>)"</string>
     <string name="yearly" msgid="8576208380302949002">"ប្រចាំ​ឆ្នាំ (នៅ <xliff:g id="DATES">%s</xliff:g>)"</string>
-    <string name="custom" product="tablet" msgid="3806817351377723249">"តាម​តម្រូវការ (មិន​អាច​ប្ដូរ​តាម​តម្រូវ​ការ​នៅ​លើ​កុំព្យូទ័រ​បន្ទះ)"</string>
+
     <string name="custom" product="default" msgid="4137468716966004993">"តាម​តម្រូវ​ការ (មិន​អាច​ប្ដូរ​តាម​តម្រូវ​ការ​នៅ​លើ​ទូរស័ព្ទ)"</string>
     <string name="modify_event" msgid="5982876409997142690">"ប្ដូរ​តែ​ព្រឹត្តិការណ៍​នេះ"</string>
     <string name="modify_all" msgid="4421657265864209041">"ប្ដូរ​ព្រឹត្តិការណ៍​ទាំងអស់​នៅ​ក្នុង​ស៊េរី"</string>

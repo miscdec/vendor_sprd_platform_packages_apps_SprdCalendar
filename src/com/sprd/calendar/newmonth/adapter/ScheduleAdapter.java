@@ -3,7 +3,6 @@ package com.sprd.calendar.newmonth.adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.app.Fragment;
@@ -29,6 +28,8 @@ import java.util.Formatter;
 import java.util.TimeZone;
 import android.text.TextUtils;
 import android.text.format.Time;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class ScheduleAdapter extends
         RecyclerView.Adapter<RecyclerView.ViewHolder> {

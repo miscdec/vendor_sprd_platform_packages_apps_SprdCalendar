@@ -17,7 +17,6 @@ import java.util.GregorianCalendar;
 import java.util.HashMap;
 import java.util.TimeZone;
 
-import org.apache.commons.codec.DecoderException;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -25,6 +24,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
+
 
 /**
  * The calendar event handler class
@@ -91,8 +91,8 @@ public class Vcalendar {
     /**
      * Convert time to milliseconds
      *
-     * @param VCalendarTime time
-     * @param timezone  TimeZone
+     * @param millis time
+     * @param tz  TimeZone
      * @param dst Whether the daylight-saving time
      * @return milliseconds
      */
@@ -860,3 +860,4 @@ public class Vcalendar {
     }
 }
 /* @} */
+

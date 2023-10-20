@@ -35,7 +35,7 @@ import android.os.RemoteException;
 import android.os.SystemClock;
 import android.os.Build;
 import android.util.Log;
-import android.support.v4.app.NotificationCompat;
+import androidx.core.app.NotificationCompat;
 import android.database.sqlite.SQLiteDiskIOException;
 import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteFullException;

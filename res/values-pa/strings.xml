@@ -152,7 +152,7 @@
 <string name="yearly_plain">ਸਲਾਨਾ</string>
 <string name="monthly_on_day">"ਮਾਸਿਕ (ਦਿਨ <xliff:g id="day_of_month">%s</xliff:g> ਨੂੰ)"</string>
 <string name="yearly">"ਸਾਲਾਨਾ (<xliff:g id="dates">%s</xliff:g> ਨੂੰ)"</string>
-<string name="custom" product="tablet">ਕਸਟਮ (ਟੈਬਲੇਟ ਤੇ ਅਨੁਕੂਲਿਤ ਨਹੀਂ ਕਰ ਸਕਦਾ)</string>
+
 <string name="custom" product="default">ਕਸਟਮ (ਫੋਨ ਤੇ ਅਨੁਕੂਲਿਤ ਨਹੀਂ ਕਰ ਸਕਦਾ)</string>
 <string name="modify_event">ਕੇਵਲ ਇਹ ਘਟਨਾ ਬਦਲੋ</string>
 <string name="modify_all">ਸੀਰੀਜ ਵਿੱਚ ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਬਦਲੋ</string>

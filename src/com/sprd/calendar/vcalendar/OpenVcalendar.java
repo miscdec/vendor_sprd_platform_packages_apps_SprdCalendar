@@ -229,7 +229,7 @@ public class OpenVcalendar extends Activity {
 
         /* SPRD: Modify for bug 648085 @{ */
         DialogFragment mDialogFragment = new OpenVcalendarDialogFragment();
-        mDialogFragment.showAllowingStateLoss(getFragmentManager(), "dialog");
+        mDialogFragment.show(getFragmentManager(), "dialog");
         mDialogFragment.setCancelable(false);
         /* @} */
     }

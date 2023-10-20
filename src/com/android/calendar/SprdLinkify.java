@@ -16,20 +16,24 @@
 
 package com.android.calendar;
 
-import android.annotation.IntDef;
-import android.annotation.NonNull;
-import android.annotation.Nullable;
 import android.telephony.PhoneNumberUtils;
-import android.text.method.LinkMovementMethod;
-import android.text.method.MovementMethod;
-import android.text.style.URLSpan;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.Spanned;
+import android.text.method.LinkMovementMethod;
+import android.text.method.MovementMethod;
+import android.text.style.URLSpan;
 import android.util.Patterns;
 import android.webkit.WebView;
 import android.widget.TextView;
 
+import androidx.annotation.IntDef;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.util.PatternsCompat;
+
+import com.google.i18n.phonenumbers.PhoneNumberMatch;
+import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
 import java.io.UnsupportedEncodingException;
 import java.lang.annotation.Retention;
@@ -42,11 +46,6 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.android.i18n.phonenumbers.PhoneNumberMatch;
-import com.android.i18n.phonenumbers.PhoneNumberUtil;
-import com.android.i18n.phonenumbers.PhoneNumberUtil.Leniency;
-
-import libcore.util.EmptyArray;
 
 /**
  *  Linkify take a piece of text and a regular expression and turns all of the
@@ -256,13 +255,13 @@ public class SprdLinkify {
         ArrayList<LinkSpec> links = new ArrayList<LinkSpec>();
 
         if ((mask & WEB_URLS) != 0) {
-            gatherLinks(links, text, Patterns.AUTOLINK_WEB_URL,
+            gatherLinks(links, text, PatternsCompat.AUTOLINK_WEB_URL,
                 new String[] { "http://", "https://", "rtsp://" },
                 sUrlMatchFilter, null);
         }
 
         if ((mask & EMAIL_ADDRESSES) != 0) {
-            gatherLinks(links, text, Patterns.AUTOLINK_EMAIL_ADDRESS,
+            gatherLinks(links, text, PatternsCompat.AUTOLINK_EMAIL_ADDRESS,
                 new String[] { "mailto:" },
                 null, null);
         }
@@ -461,7 +460,7 @@ public class SprdLinkify {
         final String[] schemesCopy;
         if (defaultScheme == null) defaultScheme = "";
         if (schemes == null || schemes.length < 1) {
-            schemes = EmptyArray.STRING;
+            schemes = new String[0];
         }
 
         schemesCopy = new String[schemes.length + 1];
@@ -552,7 +551,7 @@ public class SprdLinkify {
     private static final void gatherTelLinks(ArrayList<LinkSpec> links, Spannable s) {
         PhoneNumberUtil phoneUtil = PhoneNumberUtil.getInstance();
         Iterable<PhoneNumberMatch> matches = phoneUtil.findNumbers(s.toString(),
-                Locale.getDefault().getCountry(), Leniency.POSSIBLE, Long.MAX_VALUE);
+                Locale.getDefault().getCountry(), PhoneNumberUtil.Leniency.POSSIBLE, Long.MAX_VALUE);
         for (PhoneNumberMatch match : matches) {
             LinkSpec spec = new LinkSpec();
             spec.url = "tel:" + PhoneNumberUtils.normalizeNumber(match.rawString());

@@ -151,7 +151,7 @@
 <string name="yearly_plain">"Kada tuig"</string>
 <string name="monthly_on_day">"Binulan (on day <xliff:g id="day_of_month">%s</xliff:g>)"</string>
 <string name="yearly">"Tinuig (on <xliff:g id="dates">%s</xliff:g>)"</string>
-<string name="custom" product="tablet">"Usbon (dili mausab sa tablet)"</string>
+
 <string name="custom" product="default">"Usbon (dili mausab sa phone)"</string>
 <string name="modify_event">"Alisdan ra kini nga panghitabo"</string>
 <string name="modify_all">"Alisdan tanan mga panghitabo ani nga serye"</string>

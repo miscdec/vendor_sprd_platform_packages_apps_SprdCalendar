@@ -2,9 +2,11 @@ package com.sprd.calendar.newmonth.week;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.util.SparseArray;
+
+import androidx.viewpager.widget.ViewPager;
+
 import com.android.calendar.Utils;
 import com.android.calendar.R;
 

@@ -385,7 +385,7 @@ public class EditEventView implements View.OnClickListener,
              * SPRD for Bug529720 com.android.calendar happens
              * JavaCrash,log:java.lang.IllegalStateException @ }
              */
-            if (mActivity == null || !mActivity.isResumed()) {
+            if (mActivity == null) {
                 return;
             }
 
@@ -524,7 +524,7 @@ public class EditEventView implements View.OnClickListener,
          * SPRD for Bug531074/532166 com.android.calendar happens
          * JavaCrash,log:java.lang.IllegalStateException @ }
          */
-        if (mActivity == null || !mActivity.isResumed()) {
+        if (mActivity == null) {
             return;
         }
         /* @ } */
@@ -737,7 +737,7 @@ public class EditEventView implements View.OnClickListener,
          * SPRD for Bug531074 com.android.calendar happens
          * JavaCrash,log:java.lang.IllegalStateException @ }
          */
-        if (mActivity == null || !mActivity.isResumed()) {
+        if (mActivity == null) {
             return;
         }
         /* @ } */
