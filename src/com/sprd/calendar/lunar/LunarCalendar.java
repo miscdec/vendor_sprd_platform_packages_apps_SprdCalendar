@@ -3,19 +3,24 @@ package com.sprd.calendar.lunar;
 
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.HashMap;
 import java.util.Calendar;
 import java.util.Map;
+import java.util.concurrent.CompletableFuture;
 
 import android.R.integer;
 import android.content.Context;
+import android.os.Build;
 import android.text.format.Time;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.util.LongSparseArray;
 import android.annotation.SuppressLint;
+
+import androidx.annotation.RequiresApi;
 
 import com.android.calendar.R;
 import com.sprd.calendar.lunar.SolarTermUtil;
@@ -375,14 +380,33 @@ public class LunarCalendar {
      * @return
      */
     private String getSolarTerm(int year, int month, int day) {
-        SOLAR_TERMS.put(year, SolarTermUtil.getSolarTerms(year, mLunarTerm));
+
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+            // 创建异步执行任务:
+            CompletableFuture<String[]> cf = CompletableFuture.supplyAsync(() -> SolarTermUtil.getSolarTerms(year, mLunarTerm));
+            // 如果执行成功:
+            cf.thenAccept((result) -> {
+                Log.d("price finish: " , Arrays.toString(result));
+                SOLAR_TERMS.put(year, result);
+            });
+            // 如果执行异常:
+            cf.exceptionally((e) -> {
+                e.printStackTrace();
+                Log.e("price error:",e.toString());
+                return SOLAR_TERMS.put(year, SolarTermUtil.getSolarTerms(year, mLunarTerm));
+            });
+        }else {
+            SOLAR_TERMS.put(year, SolarTermUtil.getSolarTerms(year, mLunarTerm));
+        }
         String[] solarTerm = SOLAR_TERMS.get(year);
         String text = String.format("%s%s", year, (month >= 10 ? String.valueOf(month) : "0" + month) + (day >= 10 ? day : "0" + day));
         String termStr = "";
-        for (String solarTermName : solarTerm) {
-            if (solarTermName.contains(text)) {
-                termStr = solarTermName.replace(text, "");
-                break;
+        if (solarTerm != null) {
+            for (String solarTermName : solarTerm) {
+                if (solarTermName.contains(text)) {
+                    termStr = solarTermName.replace(text, "");
+                    break;
+                }
             }
         }
         return termStr;
@@ -463,63 +487,61 @@ public class LunarCalendar {
     }
 
     public String getLunarDayInfo() {
-        if (mLunarYear == 0 || mLunarMonth == 0 || mLunarDay == 0) {
-            return "";
-        }
-        // if this day is traditional festival, show as it
-        String traditionFestivalStr = getTraditionalFestival();
-        String festivalStr = getFestival();
-        // correct the algorithm of getting solar terms
-        String solarTermStr = getSolarTerm(mSolarYear, mSolarMonth + 1, mSolarDay);// UNISOC: Modify for bug1391668
-        if (!traditionFestivalStr.trim().equals("")
-                || !festivalStr.trim().equals("")
-                || !solarTermStr.trim().equals("")) {
-            mIsFastival = true;
-        } else {
-            mIsFastival = false;
-        }
 
-        if (traditionFestivalStr != null && festivalStr != null
-                && !traditionFestivalStr.trim().equals("")
-                && !festivalStr.trim().equals("")) {
-            return traditionFestivalStr + "/" + festivalStr;
-        }
+            if (mLunarYear == 0 || mLunarMonth == 0 || mLunarDay == 0) {
+                return "";
+            }
+            // if this day is traditional festival, show as it
+            String traditionFestivalStr = getTraditionalFestival();
+            String festivalStr = getFestival();
+            // correct the algorithm of getting solar terms
+            String solarTermStr = getSolarTerm(mSolarYear, mSolarMonth + 1, mSolarDay);// UNISOC: Modify for bug1391668
+            mIsFastival = !traditionFestivalStr.trim().isEmpty()
+                    || !festivalStr.trim().isEmpty()
+                    || !solarTermStr.trim().isEmpty();
 
-        if (traditionFestivalStr != null && solarTermStr != null
-                && !traditionFestivalStr.trim().equals("")
-                && !solarTermStr.trim().equals("")) {
-            return traditionFestivalStr + "/" + solarTermStr;
-        }
+            if (traditionFestivalStr != null && festivalStr != null
+                    && !traditionFestivalStr.trim().isEmpty()
+                    && !festivalStr.trim().isEmpty()) {
+                return traditionFestivalStr + "/" + festivalStr;
+            }
 
-        if (festivalStr != null && solarTermStr != null
-                && !festivalStr.trim().equals("")
-                && !solarTermStr.trim().equals("")) {
-            return festivalStr + "/" + solarTermStr;
-        }
+            if (traditionFestivalStr != null && solarTermStr != null
+                    && !traditionFestivalStr.trim().isEmpty()
+                    && !solarTermStr.trim().isEmpty()) {
+                return traditionFestivalStr + "/" + solarTermStr;
+            }
 
-        if (traditionFestivalStr != null
-                && !traditionFestivalStr.trim().equals("")) {
-            return traditionFestivalStr;
-        }
+            if (festivalStr != null && solarTermStr != null
+                    && !festivalStr.trim().isEmpty()
+                    && !solarTermStr.trim().isEmpty()) {
+                return festivalStr + "/" + solarTermStr;
+            }
 
-        // if this day is festival, show as it
-        if (festivalStr != null && !festivalStr.trim().equals("")) {
-            return festivalStr;
-        }
+            if (traditionFestivalStr != null
+                    && !traditionFestivalStr.trim().isEmpty()) {
+                return traditionFestivalStr;
+            }
 
-        // if this day is solar term, show as it
-        if (solarTermStr != null && !solarTermStr.trim().equals("")) {
-            return solarTermStr;
-        }
+            // if this day is festival, show as it
+            if (festivalStr != null && !festivalStr.trim().isEmpty()) {
+                return festivalStr;
+            }
 
-        // if this day is first day of lunar month, show lunar month number
-        String lunarMonthStr = getChinaMonthString();
-        if (mLunarDay == 1) {
-            return lunarMonthStr;
-        }
+            // if this day is solar term, show as it
+            if (solarTermStr != null && !solarTermStr.trim().isEmpty()) {
+                return solarTermStr;
+            }
 
-        // otherwise, show lunar day number
-        String lunarDayStr = getChinaDayString(false);
-        return lunarDayStr;
+            // if this day is first day of lunar month, show lunar month number
+            String lunarMonthStr = getChinaMonthString();
+            if (mLunarDay == 1) {
+                return lunarMonthStr;
+            }
+
+            // otherwise, show lunar day number
+            String lunarDayStr = getChinaDayString(false);
+            return lunarDayStr;
+
     }
 }
