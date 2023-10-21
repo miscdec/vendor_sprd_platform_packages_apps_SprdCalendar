@@ -9,8 +9,8 @@ public class RequestPermissionsActivity extends RequestPermissionsActivityBase {
     private static final String[] REQUIRED_PERMISSIONS = new String[] {
             permission.READ_CALENDAR,
             permission.WRITE_CALENDAR,
-            permission.READ_EXTERNAL_STORAGE,
-            permission.WRITE_EXTERNAL_STORAGE,
+//            permission.READ_EXTERNAL_STORAGE,
+//            permission.WRITE_EXTERNAL_STORAGE,
             permission.READ_CONTACTS,
             permission.READ_SMS
     };
@@ -27,8 +27,8 @@ public class RequestPermissionsActivity extends RequestPermissionsActivityBase {
         return new String[] {
             permission.READ_CALENDAR,
             permission.WRITE_CALENDAR,
-            permission.READ_EXTERNAL_STORAGE,
-            permission.WRITE_EXTERNAL_STORAGE,
+//            permission.READ_EXTERNAL_STORAGE,
+//            permission.WRITE_EXTERNAL_STORAGE,
             permission.READ_CONTACTS,
             permission.READ_SMS
         };

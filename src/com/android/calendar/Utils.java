@@ -1006,7 +1006,7 @@ public class Utils {
      * @param top The lowest y value the dna should be drawn at
      * @param bottom The highest y value the dna should be drawn at
      * @param dayXs An array of x values to draw the dna at, one for each day
-     * @param conflictColor the color to use for conflicts
+     * @param  conflictColor the color to use for conflicts
      * @return
      */
     public static HashMap<Integer, DNAStrand> createDNAStrands(int firstJulianDay,
@@ -2351,9 +2351,9 @@ public class Utils {
             return numPermissionsToRequest;
         }
 
-        if (context.checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-            numPermissionsToRequest++;
-        }
+//        if (context.checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+//            numPermissionsToRequest++;
+//        }
 
         if (context.checkSelfPermission(Manifest.permission.READ_CALENDAR) != PackageManager.PERMISSION_GRANTED) {
             numPermissionsToRequest++;
